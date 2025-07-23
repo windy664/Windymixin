@@ -1,0 +1,35 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "org.windy.windymixin.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "windymixin.refmap.json",
+  "mixins": [
+    "Avaritia.TileNeutroniumCompressorAccessor",
+    "Avaritia.TileNeutroniumCompressorMixin",
+    "FTBQuests.ServerQuestFileMixin",
+    "IndustrialUpgrade.EnergyForgeSinkMixin",
+    "IndustrialUpgrade.EnergyForgeSinkSourceMixin",
+    "IndustrialUpgrade.EnergyForgeSourceMixin",
+    "IndustrialUpgrade.EnergyNetLocalMixin",
+    "IndustrialUpgrade.IUEventHandlerMixin",
+    "Jade.WailaExceptionHandlerMixin",
+    "JEI.ServerCommandUtilMixin",
+    "Minecraft.ItemStackMixin",
+    "Minecraft.ServerConfigurationPacketListenerImplMixin",
+    "Minecraft.ServerLoginPacketListenerImplMixin",
+    "Neoforge.NetworkComponentNegotiatorMixin",
+    "ProjectE.CachedIntValueMixin",
+    "ProjectE.CachedIntValuePrivateAccessor",
+    "ProjectE.CachedValueAccessor",
+    "Titanium.RewardMixin"
+  ],
+  "client": [
+    "Minecraft.ClientCommonPacketListenerImplMixin",
+    "Neoforge.NetworkRegistryAccessor",
+    "Neoforge.NetworkRegistryMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
