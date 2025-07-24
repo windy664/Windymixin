@@ -34,5 +34,5 @@ jobs:
     - name: Upload JAR artifact
       uses: actions/upload-artifact@v4
       with:
-        name: app-jar
+        name: 风吟的通用BUG修复
         path: build/libs/*.jar
