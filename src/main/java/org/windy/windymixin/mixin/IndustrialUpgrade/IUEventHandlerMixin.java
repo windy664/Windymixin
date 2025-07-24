@@ -1,30 +1,42 @@
 package org.windy.windymixin.mixin.IndustrialUpgrade;
 
-
-
-import com.denfop.events.IUEventHandler;
-import net.neoforged.neoforge.event.entity.player.ItemTooltipEvent;
+import net.minecraft.util.Tuple;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
-import org.spongepowered.asm.mixin.injection.Inject;
-import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
+import org.spongepowered.asm.mixin.injection.Redirect;
+import com.denfop.events.IUEventHandler;
 
 @Mixin(IUEventHandler.class)
 public class IUEventHandlerMixin {
+
     /**
-     * 防止 tupleReplicatorRecipe 为 null 时 addInfo 方法崩溃
+     * 精准防御所有 addInfo 里的 Tuple.getA() 调用，防止 tupleReplicatorRecipe 为 null 崩溃
      */
-    @Inject(method = "addInfo", at = @At("HEAD"), cancellable = true)
-    private void windymixin$preventNullTupleReplicatorRecipe(ItemTooltipEvent event, CallbackInfo ci) {
-        try {
-            // 反射拿到 this.tupleReplicatorRecipe
-            Object tuple = this.getClass().getDeclaredField("tupleReplicatorRecipe").get(this);
-            if (tuple == null) {
-                ci.cancel(); // 直接跳过后续 addInfo 逻辑
-            }
-        } catch (Throwable e) {
-            // 反射失败也跳过，最大限度防崩
-            ci.cancel();
+    @Redirect(
+            method = "addInfo(Lnet/neoforged/neoforge/event/entity/player/ItemTooltipEvent;)V",
+            at = @At(
+                    value = "INVOKE",
+                    target = "Lnet/minecraft/util/Tuple;getA()Ljava/lang/Object;"
+            )
+    )
+    private Object windymixin$redirectGetA(Tuple<?, ?> tuple) {
+        if (tuple == null) {
+            return null; // 或 ItemStack.EMPTY，看mod兼容性
         }
+        return tuple.getA();
+    }
+
+    @Redirect(
+            method = "addInfo(Lnet/neoforged/neoforge/event/entity/player/ItemTooltipEvent;)V",
+            at = @At(
+                    value = "INVOKE",
+                    target = "Lnet/minecraft/util/Tuple;getB()Ljava/lang/Object;"
+            )
+    )
+    private Object windymixin$redirectGetB(Tuple<?, ?> tuple) {
+        if (tuple == null) {
+            return null;
+        }
+        return tuple.getB();
     }
 }
