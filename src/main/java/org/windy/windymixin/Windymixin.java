@@ -23,17 +23,8 @@ public class Windymixin {
     public static final String MODID = "windymixin";
 
     public Windymixin() {
-        // 将事件监听器注册到 Forge 事件总线
-        EVENT_BUS.register(this);
 
-    }
 
-    // 玩家登录事件监听
-    @SubscribeEvent(priority = EventPriority.NORMAL)
-    public void onPlayerLogin(PlayerEvent.PlayerLoggedInEvent event) {
-        if (event.getEntity() instanceof ServerPlayer player) {
-            player.sendSystemMessage(Component.literal("§e欢迎来到量子科技！QQ群：760450201"));
-        }
     }
 
     @EventBusSubscriber(modid = Windymixin.MODID, bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
@@ -46,7 +37,8 @@ public class Windymixin {
                 return;
             }
             // 快捷方式文件名
-            File shortcutFile = new File(parentDir, "服务器官网.url");
+            File shortcutFile = new File(parentDir, "服务器文档.url");
+          //  File shortcutFile = new File(parentDir, "服务器官网.url");
 
             if (!shortcutFile.exists()) {
                 try (PrintWriter writer = new PrintWriter(shortcutFile, "UTF-8")) {
@@ -54,8 +46,8 @@ public class Windymixin {
                     writer.println("Prop3=19,11");
                     writer.println("[InternetShortcut]");
                     writer.println("IDList=");
-                  //  writer.println("URL=https://docs.qq.com/aio/DQWpBaUFTeUtRQ2Js");
-                    writer.println("URL=https://www.mcplay.cc/index.html");
+                    writer.println("URL=https://docs.qq.com/aio/DQWpBaUFTeUtRQ2Js");
+                    //writer.println("URL=https://www.mcplay.cc/index.html");
 
                 } catch (Exception e) {
                     LOGGER.error("创建快捷方式失败", e);

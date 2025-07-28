@@ -117,7 +117,7 @@ sourceSets.main.resources { srcDir 'src/generated/resources' }
 dependencies {
 
     compileOnly fileTree("./libs")
-    compileOnly("org.spigotmc:spigot-api:1.21.1-R0.1-SNAPSHOT")
+ //   compileOnly("org.spigotmc:spigot-api:1.21.1-R0.1-SNAPSHOT")
 
     compileOnly ("mezz.jei:jei-${minecraft_version}-common:${jei_version}")
 
@@ -132,6 +132,10 @@ dependencies {
     implementation "curse.maven:ftb-quests-forge-289412:6721642"
 
     implementation "curse.maven:ftb-quests-forge-404468:6119437"
+
+    compileOnly "maven.modrinth:modular-machinery-reborn:1.21.1-2.4.5"
+
+    //implementation "curse.maven:372007:6820707"
 }
 
 // This block of code expands all declared replace properties in the specified resource targets.

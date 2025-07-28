@@ -1,9 +1,7 @@
 package org.windy.windymixin.mixin.Avaritia;
 
 import net.byAqua3.avaritia.tile.TileNeutroniumCompressor;
-import net.byAqua3.avaritia.recipe.RecipeCompressor;
 import net.byAqua3.avaritia.singularity.Singularity;
-import net.byAqua3.avaritia.util.AvaritiaRecipeUtils;
 import net.byAqua3.avaritia.loader.AvaritiaSingularities;
 import net.byAqua3.avaritia.item.ItemJsonSingularity;
 import net.byAqua3.avaritia.loader.AvaritiaDataComponents;
