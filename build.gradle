@@ -130,6 +130,8 @@ dependencies {
     implementation "curse.maven:projecte-226410:6611984"
 
     implementation "curse.maven:ftb-quests-forge-289412:6721642"
+
+    implementation "curse.maven:ftb-quests-forge-404468:6119437"
 }
 
 // This block of code expands all declared replace properties in the specified resource targets.
