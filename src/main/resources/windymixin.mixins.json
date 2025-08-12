@@ -20,19 +20,22 @@
     "Minecraft.ServerConfigurationPacketListenerImplMixin",
     "Minecraft.ServerLoginPacketListenerImplMixin",
     "Minecraft.SimpleRandomMixin",
+    "Minecraft.StringUtilMixin",
     "ModularMachineryReborn.MachineControllerEntityMixin",
+    "ModularMachineryReborn.UtilsMixin",
     "Neoforge.NetworkComponentNegotiatorMixin",
+    "ProjectE.CachedDoubleValueMixin",
     "ProjectE.CachedIntValueMixin",
     "ProjectE.CachedIntValuePrivateAccessor",
     "ProjectE.CachedValueAccessor",
     "Titanium.RewardMixin",
+    "Youer.LegendarySevenDayGift.LegendarySevenDayGiftMixin",
     "Youer.SelfHome.MainMixin"
   ],
   "client": [
     "FTBTeams.ClientTeamManagerImplAccessor",
     "FTBTeams.ClientTeamManagerImplMixin",
     "Minecraft.ClientCommonPacketListenerImplMixin",
-    "Minecraft.MinecraftMixin",
     "Neoforge.NetworkRegistryAccessor",
     "Neoforge.NetworkRegistryMixin"
   ],

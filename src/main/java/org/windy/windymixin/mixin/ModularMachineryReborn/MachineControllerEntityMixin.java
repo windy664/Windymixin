@@ -11,7 +11,7 @@ public class MachineControllerEntityMixin {
 
     /**
      * 拦截 MachineControllerEntity 构造器里对 RandomSource#nextIntBetweenInclusive 的调用，
-     * 防止传入非法参数导致崩溃，兜底返回 0 或 min。
+     * 修正非法参数，保证 tickOffset 算法安全。
      */
     @Redirect(
             method = "<init>(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V",
@@ -20,7 +20,8 @@ public class MachineControllerEntityMixin {
                     target = "Lnet/minecraft/util/RandomSource;nextIntBetweenInclusive(II)I"
             )
     )
-    private int safeNextIntBetweenInclusive(RandomSource instance, int min, int max) {
+    private int fixedNextIntBetweenInclusive(RandomSource instance, int min, int max) {
+        // 修正算法：保证 min <= max，且差值不溢出
         if (max < min) {
             int t = min;
             min = max;
@@ -28,16 +29,16 @@ public class MachineControllerEntityMixin {
         }
         long diff = (long)max - (long)min + 1L;
         if (diff <= 0L || diff > Integer.MAX_VALUE) {
-            String msg = "[Mixin-Fix] MachineControllerEntity 构造时 tickOffset 随机数参数异常（区间非法），已兜底返回 min，严重建议修复MOD代码！min=" + min + " max=" + max;
+            String msg = "[WindyMixin-Fix] [ModularMachineryReborn] MachineControllerEntity 构造随机区间参数非法！min=" + min + ", max=" + max + "，已兜底为min。请MOD作者修复！";
             System.err.println(msg);
-            return 1;
+            return min;
         }
         try {
             return instance.nextIntBetweenInclusive(min, max);
         } catch (IllegalArgumentException e) {
-            String msg = "[Mixin-Fix] MachineControllerEntity 构造时 tickOffset 随机数调用异常: " + e + "，已兜底返回 min，严重建议修复MOD代码！";
+            String msg = "[WindyMixin-Fix] [ModularMachineryReborn] MachineControllerEntity nextIntBetweenInclusive 调用异常: " + e + "，已兜底为min。请MOD作者修复！";
             System.err.println(msg);
-            return 1;
+            return min;
         }
     }
 }

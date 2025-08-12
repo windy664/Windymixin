@@ -21,9 +21,18 @@ import static net.neoforged.neoforge.common.NeoForge.EVENT_BUS;
 public class Windymixin {
     public static final Logger LOGGER = LogUtils.getLogger();
     public static final String MODID = "windymixin";
+    private static String docname;
+    private static String link;
 
     public Windymixin() {
-
+        int mode = 2;
+        if(mode==1){
+            docname = "服务器文档.url";
+            link = "https://docs.qq.com/aio/DQWpBaUFTeUtRQ2Js";
+        } else if (mode==2) {
+            docname = "服务器官网.url";
+            link = "https://www.mcplay.cc/index.html";
+        }
 
     }
 
@@ -36,9 +45,9 @@ public class Windymixin {
             if (parentDir == null) {
                 return;
             }
-            // 快捷方式文件名
-            File shortcutFile = new File(parentDir, "服务器文档.url");
-          //  File shortcutFile = new File(parentDir, "服务器官网.url");
+
+            File shortcutFile = new File(parentDir, docname);
+           // File shortcutFile = new File(parentDir, "服务器官网.url");
 
             if (!shortcutFile.exists()) {
                 try (PrintWriter writer = new PrintWriter(shortcutFile, "UTF-8")) {
@@ -46,8 +55,8 @@ public class Windymixin {
                     writer.println("Prop3=19,11");
                     writer.println("[InternetShortcut]");
                     writer.println("IDList=");
-                    writer.println("URL=https://docs.qq.com/aio/DQWpBaUFTeUtRQ2Js");
-                    //writer.println("URL=https://www.mcplay.cc/index.html");
+                //    writer.println("URL=https://docs.qq.com/aio/DQWpBaUFTeUtRQ2Js");
+                writer.println("URL="+link);
 
                 } catch (Exception e) {
                     LOGGER.error("创建快捷方式失败", e);
