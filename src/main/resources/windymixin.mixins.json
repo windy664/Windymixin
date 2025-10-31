@@ -7,6 +7,8 @@
   "mixins": [
     "Avaritia.TileNeutroniumCompressorAccessor",
     "Avaritia.TileNeutroniumCompressorMixin",
+    "Brandonscore.ContributorFetcherMixin",
+    "Enigmaticlegacyplus.EnigmaticItemsMixin",
     "FTBQuests.ServerQuestFileMixin",
     "IndustrialUpgrade.ClientProxyMixin",
     "IndustrialUpgrade.EnergyForgeSinkMixin",
@@ -29,12 +31,13 @@
     "ProjectE.CachedIntValuePrivateAccessor",
     "ProjectE.CachedValueAccessor",
     "Titanium.RewardMixin",
-    "Youer.LegendarySevenDayGift.LegendarySevenDayGiftMixin",
-    "Youer.SelfHome.MainMixin"
+    "TwilightForest.TrollsteinnBlockMixin",
+    "Youer.WorldAPIMixin"
   ],
   "client": [
     "FTBTeams.ClientTeamManagerImplAccessor",
     "FTBTeams.ClientTeamManagerImplMixin",
+    "Minecraft.ChatComponentMixin",
     "Minecraft.ClientCommonPacketListenerImplMixin",
     "Neoforge.NetworkRegistryAccessor",
     "Neoforge.NetworkRegistryMixin"

@@ -135,6 +135,11 @@ dependencies {
 
     compileOnly "maven.modrinth:modular-machinery-reborn:1.21.1-2.4.5"
 
+
+    compileOnly 'net.kyori:adventure-api:4.14.0'
+    compileOnly 'net.kyori:adventure-key:4.14.0'
+    compileOnly 'net.kyori:adventure-text-serializer-plain:4.14.0'
+
 }
 
 // This block of code expands all declared replace properties in the specified resource targets.

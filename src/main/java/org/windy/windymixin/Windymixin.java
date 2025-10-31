@@ -1,21 +1,15 @@
 package org.windy.windymixin;
 
 import com.mojang.logging.LogUtils;
-import net.minecraft.server.level.ServerPlayer;
-import net.minecraft.network.chat.Component;
 import net.neoforged.api.distmarker.Dist;
-import net.neoforged.bus.api.EventPriority;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
-import net.neoforged.neoforge.event.entity.player.PlayerEvent;
 import org.slf4j.Logger;
 
 import java.io.File;
 import java.io.PrintWriter;
-
-import static net.neoforged.neoforge.common.NeoForge.EVENT_BUS;
 
 @Mod(Windymixin.MODID)
 public class Windymixin {
@@ -25,6 +19,8 @@ public class Windymixin {
     private static String link;
 
     public Windymixin() {
+        Config.load(); // 加载 windymixin.json
+        LOGGER.info("[Windymixin] 模组初始化完成，JSON 配置系统已启动。");
         int mode = 2;
         if(mode==1){
             docname = "服务器文档.url";
@@ -55,8 +51,7 @@ public class Windymixin {
                     writer.println("Prop3=19,11");
                     writer.println("[InternetShortcut]");
                     writer.println("IDList=");
-                //    writer.println("URL=https://docs.qq.com/aio/DQWpBaUFTeUtRQ2Js");
-                writer.println("URL="+link);
+                    writer.println("URL="+link);
 
                 } catch (Exception e) {
                     LOGGER.error("创建快捷方式失败", e);
