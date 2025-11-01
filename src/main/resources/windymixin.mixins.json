@@ -18,6 +18,7 @@
     "IndustrialUpgrade.IUEventHandlerMixin",
     "Jade.WailaExceptionHandlerMixin",
     "Minecraft.AbstractContainerMenuMixin",
+    "Minecraft.BlockEntityAccessor",
     "Minecraft.ItemStackMixin",
     "Minecraft.ServerConfigurationPacketListenerImplMixin",
     "Minecraft.ServerLoginPacketListenerImplMixin",
