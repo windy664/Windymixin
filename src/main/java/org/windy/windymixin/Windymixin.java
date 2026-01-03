@@ -21,7 +21,7 @@ public class Windymixin {
     public Windymixin() {
         Config.load(); // 加载 windymixin.json
         LOGGER.info("[Windymixin] 模组初始化完成，JSON 配置系统已启动。");
-        int mode = 2;
+        int mode = 1;
         if(mode==1){
             docname = "服务器文档.url";
             link = "https://docs.qq.com/aio/DQWpBaUFTeUtRQ2Js";

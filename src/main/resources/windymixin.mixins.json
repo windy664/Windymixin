@@ -24,7 +24,6 @@
     "Minecraft.ServerLoginPacketListenerImplMixin",
     "Minecraft.SimpleRandomMixin",
     "Minecraft.StringUtilMixin",
-    "ModularMachineryReborn.MachineControllerEntityMixin",
     "ModularMachineryReborn.UtilsMixin",
     "Neoforge.NetworkComponentNegotiatorMixin",
     "ProjectE.CachedDoubleValueMixin",

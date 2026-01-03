@@ -17,7 +17,7 @@ public class EnergyNetLocalMixin {
     )
     private void crashGuard(BlockEntity entity, CallbackInfo ci) {
         if (entity == null) {
-            System.err.println("[风吟的通用BUG修复] 工业升级的explodeMachineAt 被传入 null，已拦截，防止崩服。");
+            System.err.println("[通用BUG修复] 工业升级的explodeMachineAt 被传入 null，已拦截，防止崩服。");
             ci.cancel();
         }
     }

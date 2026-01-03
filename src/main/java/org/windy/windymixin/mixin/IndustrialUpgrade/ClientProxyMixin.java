@@ -23,7 +23,7 @@ public class ClientProxyMixin {
             ItemUpgradeMachinesKit.inform[i] = ++ItemUpgradeMachinesKit.inform[i] % list1.size();
         }
 
-        // 跳过原方法，防止再次调用旧逻辑
+
         ci.cancel();
     }
 }

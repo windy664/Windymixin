@@ -25,7 +25,7 @@ public abstract class EnergyForgeSinkSourceMixin implements IEnergyStorage {
     @Inject(method = "<init>", at = @org.spongepowered.asm.mixin.injection.At("RETURN"))
     private void windymixin$init(CallbackInfo ci) {
         try {
-            // 注意：这里建议用 getSuperclass()，保证拿到父类的成员而不是当前mixin类
+            // 保证拿到父类的成员而不是当前mixin类
             Field field = this.getClass().getSuperclass().getDeclaredField("storages");
             field.setAccessible(true);
             windymixin$storages = (Map<Direction, IEnergyStorage>) field.get(this);
