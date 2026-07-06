@@ -1,2 +1,13 @@
 # 项目排除路径
 /.gradle/
+
+# 构建输出
+/build/
+/run/
+
+# 依赖库（第三方模组 jar，不入库）
+/libs/
+
+# IDE
+/.idea/
+*.iml

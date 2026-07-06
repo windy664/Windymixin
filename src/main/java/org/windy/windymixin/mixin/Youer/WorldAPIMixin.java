@@ -64,6 +64,15 @@ public abstract class WorldAPIMixin extends ChunkGenerator {
                 }
             }
         }
+        System.out.println(String.format(
+                "风吟的Mixin发力了：[World: %s, Random: %s, X: %d, Z: %d, BiomeGrid: %s, SelectedBiome: %s]",
+                world.getName(),
+                random.toString(),
+                x,
+                z,
+                biome.toString(),
+                biomeSelected.name()
+        ));
 
         return chunkData;
     }

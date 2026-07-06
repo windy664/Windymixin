@@ -11,13 +11,11 @@ import java.lang.reflect.Field;
 @Mixin(CachedDoubleValue.class)
 public abstract class CachedDoubleValueMixin {
 
-    /**
-     * 完全重写 ProjectE 的 get()，防止 config 未加载时崩溃
-     */
+
     @Overwrite
     public double get() {
         try {
-            // 反射拿到 private boolean resolved 和 double cachedValue 字段
+
             Field resolvedField = this.getClass().getSuperclass().getDeclaredField("resolved");
             Field cachedValueField = this.getClass().getSuperclass().getDeclaredField("cachedValue");
             Field internalField = this.getClass().getSuperclass().getDeclaredField("internal");
@@ -33,7 +31,7 @@ public abstract class CachedDoubleValueMixin {
                     cachedValueField.setDouble(this, value);
                     resolvedField.setBoolean(this, true);
                 } catch (IllegalStateException e) {
-                    // 未加载时，返回默认值，不缓存
+                    // 兜底
                     return internal.getDefault();
                 }
             }

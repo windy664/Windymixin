@@ -7,9 +7,7 @@ import org.spongepowered.asm.mixin.Overwrite;
 
 @Mixin(CachedIntValue.class)
 public abstract class CachedIntValueMixin {
-    /**
-     * 临时修复 ProjectE 崩溃：config 未加载时返回默认值
-     */
+
     @Overwrite
     public int get() {
         CachedIntValuePrivateAccessor self = (CachedIntValuePrivateAccessor) (Object) this;
@@ -22,7 +20,8 @@ public abstract class CachedIntValueMixin {
             }
             return self.getCachedValue();
         } catch (IllegalStateException e) {
-            // config 尚未加载，返回默认值
+
+            //兜底
             return internal.getDefault();
         }
     }

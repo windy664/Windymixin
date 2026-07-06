@@ -26,11 +26,8 @@
     "Minecraft.StringUtilMixin",
     "ModularMachineryReborn.UtilsMixin",
     "Neoforge.NetworkComponentNegotiatorMixin",
-    "ProjectE.CachedDoubleValueMixin",
-    "ProjectE.CachedIntValueMixin",
-    "ProjectE.CachedIntValuePrivateAccessor",
-    "ProjectE.CachedValueAccessor",
     "Titanium.RewardMixin",
+    "TwilightForest.GeneralTFBossMixin",
     "TwilightForest.TrollsteinnBlockMixin",
     "Youer.WorldAPIMixin"
   ],
@@ -40,7 +37,11 @@
     "Minecraft.ChatComponentMixin",
     "Minecraft.ClientCommonPacketListenerImplMixin",
     "Neoforge.NetworkRegistryAccessor",
-    "Neoforge.NetworkRegistryMixin"
+    "Neoforge.NetworkRegistryMixin",
+    "ProjectE.CachedDoubleValueMixin",
+    "ProjectE.CachedIntValueMixin",
+    "ProjectE.CachedIntValuePrivateAccessor",
+    "ProjectE.CachedValueAccessor"
   ],
   "injectors": {
     "defaultRequire": 1
