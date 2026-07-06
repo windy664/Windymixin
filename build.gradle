@@ -122,7 +122,7 @@ dependencies {
     compileOnly fileTree("./libs")
 
     // Paper API：提供 org.bukkit.inventory.Recipe / org.bukkit.NamespacedKey
-    compileOnly "io.papermc.paper:paper-api:1.26.2-R0.1-SNAPSHOT"
+    compileOnly "io.papermc.paper:paper-api:26.2.build.48-alpha"
 
     // 精妙背包 Sophisticated Backpacks（用于 BasicBackpackRecipeMixin 编译）
     compileOnly "maven.modrinth:TyCTlI4b:ychGyxRy"
