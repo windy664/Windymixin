@@ -135,6 +135,9 @@ dependencies {
 
     compileOnly "maven.modrinth:modular-machinery-reborn:1.21.1-2.4.5"
 
+    // 精妙背包 Sophisticated Backpacks（用于 BasicBackpackRecipeMixin 编译）
+    compileOnly "maven.modrinth:TyCTlI4b:ychGyxRy"
+
 
     compileOnly 'net.kyori:adventure-api:4.14.0'
     compileOnly 'net.kyori:adventure-key:4.14.0'

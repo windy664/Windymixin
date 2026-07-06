@@ -26,6 +26,7 @@
     "Minecraft.StringUtilMixin",
     "ModularMachineryReborn.UtilsMixin",
     "Neoforge.NetworkComponentNegotiatorMixin",
+    "SophisticatedBackpacks.BasicBackpackRecipeMixin",
     "Titanium.RewardMixin",
     "TwilightForest.GeneralTFBossMixin",
     "TwilightForest.TrollsteinnBlockMixin",
