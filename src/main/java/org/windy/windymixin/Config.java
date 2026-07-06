@@ -79,12 +79,22 @@ public class Config {
     /** 根对象 */
     public static class Root {
         public FlatWorld flat_world = new FlatWorld();
+        public EnderDragon ender_dragon = new EnderDragon();
 
         public static Root defaultConfig() {
             Root root = new Root();
             root.flat_world = FlatWorld.defaultFlat();
+            root.ender_dragon = new EnderDragon();
             return root;
         }
+    }
+
+    /** 末影龙魔改配置 */
+    public static class EnderDragon {
+        /** 是否启用末影龙最大血量魔改 */
+        public boolean enabled = true;
+        /** 目标最大血量（绝对值；原版为 200）。{@code <= 0} 表示不改。 */
+        public double max_health = 200.0;
     }
 
     /** 平坦世界配置 */

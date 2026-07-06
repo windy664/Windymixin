@@ -5,6 +5,10 @@
   "compatibilityLevel": "JAVA_8",
   "refmap": "windymixin.refmap.json",
   "mixins": [
+    "Minecraft.AbstractContainerMenuMixin",
+    "Minecraft.BlockEntityAccessor",
+    "Minecraft.StringUtilMixin",
+    "Minecraft.EnderDragonMixin"
   ],
   "injectors": {
     "defaultRequire": 1
