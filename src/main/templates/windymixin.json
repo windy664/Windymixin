@@ -11,9 +11,5 @@
       "minecraft:dirt",
       "minecraft:grass_block"
     ]
-  },
-  "ender_dragon": {
-    "enabled": true,
-    "max_health": 200.0
   }
 }
