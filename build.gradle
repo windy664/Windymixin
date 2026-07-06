@@ -18,6 +18,8 @@ repositories {
         url = "https://maven.blamejared.com"
     }
     maven { url = "https://api.modrinth.com/maven" }
+    // Youer 26.2 基于 Paper，提供 org.bukkit.* API（BasicBackpackRecipeMixin 需要）
+    maven { url = "https://repo.papermc.io/repository/maven-public/" }
 
     exclusiveContent {
         forRepository {
@@ -41,10 +43,11 @@ neoForge {
     // Specify the version of NeoForge to use.
     version = project.neo_version
 
-    parchment {
-        mappingsVersion = project.parchment_mappings_version
-        minecraftVersion = project.parchment_minecraft_version
-    }
+    // Parchment 暂无 26.2 映射，先禁用（仅影响参数名，不影响编译）
+    // parchment {
+    //     mappingsVersion = project.parchment_mappings_version
+    //     minecraftVersion = project.parchment_minecraft_version
+    // }
 
     // This line is optional. Access Transformers are automatically detected
     // accessTransformers.add('src/main/resources/META-INF/accesstransformer.cfg')
@@ -117,6 +120,9 @@ sourceSets.main.resources { srcDir 'src/generated/resources' }
 dependencies {
 
     compileOnly fileTree("./libs")
+
+    // Paper API：提供 org.bukkit.inventory.Recipe / org.bukkit.NamespacedKey
+    compileOnly "io.papermc.paper:paper-api:1.26.2-R0.1-SNAPSHOT"
 
     // 精妙背包 Sophisticated Backpacks（用于 BasicBackpackRecipeMixin 编译）
     compileOnly "maven.modrinth:TyCTlI4b:ychGyxRy"
