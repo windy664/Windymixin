@@ -5,7 +5,6 @@
   "compatibilityLevel": "JAVA_8",
   "refmap": "windymixin.refmap.json",
   "mixins": [
-    "SophisticatedBackpacks.BasicBackpackRecipeMixin"
   ],
   "injectors": {
     "defaultRequire": 1
