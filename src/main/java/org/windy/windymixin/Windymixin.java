@@ -32,7 +32,8 @@ public class Windymixin {
 
     }
 
-    @EventBusSubscriber(modid = Windymixin.MODID, bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
+    // 1.26 起 @EventBusSubscriber 不再有 bus 参数，框架按事件类型自动选总线
+    @EventBusSubscriber(modid = Windymixin.MODID, value = Dist.CLIENT)
     static class ClientModEvents {
         @SubscribeEvent
         static void onClientSetup(FMLClientSetupEvent event) {
