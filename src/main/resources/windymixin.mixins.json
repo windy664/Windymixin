@@ -9,7 +9,8 @@
     "Minecraft.BlockEntityAccessor",
     "Minecraft.StringUtilMixin",
     "Minecraft.EnderDragonMixin",
-    "JEI.PacketGiveItemStackMixin"
+    "JEI.PacketGiveItemStackMixin",
+    "JEI.PacketRequestCheatPermissionMixin"
   ],
   "injectors": {
     "defaultRequire": 1
