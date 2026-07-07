@@ -128,7 +128,7 @@ dependencies {
     compileOnly "maven.modrinth:TyCTlI4b:ychGyxRy"
 
     // JEI（Yuushya无限拿物品mixin编译用）
-    compileOnly "mezz.jei:jei-neoforge:26.2.+"
+    compileOnly "mezz.jei:jei-26.2-neoforge:30.7.+"
 
 }
 
