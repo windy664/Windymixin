@@ -10,6 +10,9 @@
     "Minecraft.StringUtilMixin",
     "Minecraft.EnderDragonMixin"
   ],
+  "client": [
+    "JEI.PacketGiveItemStackMixin"
+  ],
   "injectors": {
     "defaultRequire": 1
   }

@@ -127,6 +127,9 @@ dependencies {
     // 精妙背包 Sophisticated Backpacks（用于 BasicBackpackRecipeMixin 编译）
     compileOnly "maven.modrinth:TyCTlI4b:ychGyxRy"
 
+    // JEI（Yuushya无限拿物品mixin编译用）
+    compileOnly "mezz.jei:jei-neoforge:26.2.+"
+
 }
 
 // This block of code expands all declared replace properties in the specified resource targets.
