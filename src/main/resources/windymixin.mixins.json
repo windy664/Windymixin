@@ -8,9 +8,7 @@
     "Minecraft.AbstractContainerMenuMixin",
     "Minecraft.BlockEntityAccessor",
     "Minecraft.StringUtilMixin",
-    "Minecraft.EnderDragonMixin"
-  ],
-  "client": [
+    "Minecraft.EnderDragonMixin",
     "JEI.PacketGiveItemStackMixin"
   ],
   "injectors": {
