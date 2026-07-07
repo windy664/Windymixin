@@ -30,7 +30,7 @@ public class PacketGiveItemStackMixin {
         if (itemStack.isEmpty()) {
             return;
         }
-        String key = itemStack.getDescriptionId();
+        String key = itemStack.getItem().getDescriptionId();
         if (key.contains("yuushya") || key.contains("ultramarine")) {
             ServerPlayer player = context.player();
             Windymixin.LOGGER.info("[JEI无限拿] {} 拿取 {}", player.getName().getString(), itemStack);
