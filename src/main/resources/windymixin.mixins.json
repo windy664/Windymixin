@@ -9,6 +9,7 @@
     "Minecraft.BlockEntityAccessor",
     "Minecraft.StringUtilMixin",
     "Minecraft.EnderDragonMixin",
+    "BlockEntitySetChangedMixin",
     "JEI.PacketGiveItemStackMixin",
     "JEI.PacketRequestCheatPermissionMixin"
   ],
