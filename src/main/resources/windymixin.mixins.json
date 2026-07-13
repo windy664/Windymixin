@@ -12,6 +12,9 @@
     "JEI.PacketGiveItemStackMixin",
     "JEI.PacketRequestCheatPermissionMixin"
   ],
+  "client": [
+    "Minecraft.MinecraftShutdownMixin"
+  ],
   "injectors": {
     "defaultRequire": 1
   }
