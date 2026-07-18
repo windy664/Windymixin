@@ -1,0 +1,28 @@
+{
+  "parent": "nerospace:guide/combustion_generator",
+  "criteria": {
+    "has_item": {
+      "conditions": {
+        "items": [
+          {
+            "items": "nerospace:rocket_fuel_canister"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": "装满火箭燃料罐",
+    "icon": {
+      "id": "nerospace:rocket_fuel_canister"
+    },
+    "title": "易燃之物"
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

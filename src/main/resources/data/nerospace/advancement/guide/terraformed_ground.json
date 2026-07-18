@@ -1,0 +1,12 @@
+{
+  "parent": "nerospace:guide/terraformer",
+  "criteria": { "impossible": { "trigger": "minecraft:impossible" } },
+  "display": {
+    "description": "站在地形改造器创造的可呼吸土地上",
+    "frame": "challenge",
+    "icon": { "id": "nerospace:terraformer" },
+    "title": "重焕生机"
+  },
+  "requirements": [ [ "impossible" ] ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "nerospace:guide/hydration_module",
+  "criteria": { "impossible": { "trigger": "minecraft:impossible" } },
+  "display": {
+    "description": "站在地形改造器完全活化的土地上",
+    "frame": "challenge",
+    "icon": { "id": "nerospace:meadow_loper_spawn_egg" },
+    "title": "世界苏醒"
+  },
+  "requirements": [ [ "impossible" ] ],
+  "sends_telemetry_event": true
+}

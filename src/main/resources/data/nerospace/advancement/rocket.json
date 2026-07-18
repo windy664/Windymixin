@@ -1,0 +1,28 @@
+{
+  "parent": "nerospace:guide/rocket_launch_pad",
+  "criteria": {
+    "has_rocket": {
+      "conditions": {
+        "items": [
+          {
+            "items": "nerospace:rocket_tier_1"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": "制作一级火箭",
+    "icon": {
+      "id": "nerospace:rocket_tier_1"
+    },
+    "title": "点火升空"
+  },
+  "requirements": [
+    [
+      "has_rocket"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

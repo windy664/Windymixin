@@ -1,0 +1,28 @@
+{
+  "parent": "nerospace:guide/universal_pipe",
+  "criteria": {
+    "has_item": {
+      "conditions": {
+        "items": [
+          {
+            "items": "nerolandcore:battery"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": "制作电池",
+    "icon": {
+      "id": "nerolandcore:battery"
+    },
+    "title": "蓄势待发"
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

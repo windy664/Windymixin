@@ -1,0 +1,28 @@
+{
+  "parent": "nerospace:station",
+  "criteria": {
+    "has_item": {
+      "conditions": {
+        "items": [
+          {
+            "items": "nerospace:rocket_tier_2"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": "制作二级火箭",
+    "icon": {
+      "id": "nerospace:rocket_tier_2"
+    },
+    "title": "更强推力"
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

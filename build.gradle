@@ -17,7 +17,17 @@ repositories {
     maven {
         url = "https://maven.blamejared.com"
     }
-    maven { url = "https://api.modrinth.com/maven" }
+    exclusiveContent {
+        forRepository {
+            maven {
+                name = "Modrinth"
+                url = "https://api.modrinth.com/maven"
+            }
+        }
+        filter {
+            includeGroup "maven.modrinth"
+        }
+    }
     // Youer 26.2 基于 Paper，提供 org.bukkit.* API（BasicBackpackRecipeMixin 需要）
     maven { url = "https://repo.papermc.io/repository/maven-public/" }
 
@@ -34,7 +44,7 @@ repositories {
 }
 
 base {
-    archivesName = mod_id
+    archivesName = "[风吟魔改]" + mod_id
 }
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(25)
@@ -130,6 +140,8 @@ dependencies {
     // JEI（Yuushya无限拿物品mixin编译用）
     compileOnly "mezz.jei:jei-26.2-neoforge:${jei_version}"
 
+    // Tom's Simple Storage 26.2 snapshot（终端同步修复 mixin 软依赖，编译期使用）
+    compileOnly "maven.modrinth:XZNI4Cpy:k7eYceQI"
 }
 
 // This block of code expands all declared replace properties in the specified resource targets.

@@ -3,10 +3,14 @@ package org.windy.windymixin;
 import com.mojang.logging.LogUtils;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.SubscribeEvent;
+import net.neoforged.fml.ModList;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
+import net.neoforged.neoforge.client.event.ClientTickEvent;
 import org.slf4j.Logger;
+import org.windy.windymixin.compat.TomsStorageTerminal.TomsStorageTerminalSyncFix;
+import org.windy.windymixin.mixin.TomsStorage.NetworkHandlerClientMixin;
 
 import java.io.File;
 import java.io.PrintWriter;
@@ -57,6 +61,13 @@ public class Windymixin {
                 } catch (Exception e) {
                     LOGGER.error("创建快捷方式失败", e);
                 }
+            }
+        }
+
+        @SubscribeEvent
+        static void onClientTick(ClientTickEvent.Post event) {
+            if (ModList.get().isLoaded("toms_storage")) {
+                TomsStorageTerminalSyncFix.clientTick();
             }
         }
     }

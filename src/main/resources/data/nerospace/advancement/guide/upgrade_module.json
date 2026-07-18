@@ -1,0 +1,61 @@
+{
+  "parent": "nerospace:guide/quarry_controller",
+  "criteria": {
+    "efficiency": {
+      "conditions": {
+        "items": [
+          {
+            "items": "nerospace:efficiency_module"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "fortune": {
+      "conditions": {
+        "items": [
+          {
+            "items": "nerospace:fortune_module"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "silk_touch": {
+      "conditions": {
+        "items": [
+          {
+            "items": "nerospace:silk_touch_module"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "speed": {
+      "conditions": {
+        "items": [
+          {
+            "items": "nerospace:speed_module"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": "制作升级模块——速度、效率、时运或精准采集",
+    "icon": {
+      "id": "nerospace:speed_module"
+    },
+    "title": "调优升级"
+  },
+  "requirements": [
+    [
+      "speed",
+      "efficiency",
+      "fortune",
+      "silk_touch"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

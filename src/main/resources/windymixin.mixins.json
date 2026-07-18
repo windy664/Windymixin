@@ -2,18 +2,21 @@
   "required": true,
   "minVersion": "0.8",
   "package": "org.windy.windymixin.mixin",
-  "compatibilityLevel": "JAVA_8",
+  "compatibilityLevel": "JAVA_17",
   "refmap": "windymixin.refmap.json",
   "mixins": [
+    "JEI.PacketGiveItemStackMixin",
+    "JEI.PacketRequestCheatPermissionMixin",
     "Minecraft.AbstractContainerMenuMixin",
     "Minecraft.BlockEntityAccessor",
-    "Minecraft.StringUtilMixin",
     "Minecraft.EnderDragonMixin",
-    "JEI.PacketGiveItemStackMixin",
-    "JEI.PacketRequestCheatPermissionMixin"
+    "Minecraft.StringUtilMixin",
+    "TomsStorage.TerminalSyncManagerMixin"
   ],
   "client": [
-    "Minecraft.MinecraftShutdownMixin"
+    "Minecraft.ChatFilterMixin",
+    "Minecraft.MinecraftShutdownMixin",
+    "TomsStorage.NetworkHandlerClientMixin"
   ],
   "injectors": {
     "defaultRequire": 1

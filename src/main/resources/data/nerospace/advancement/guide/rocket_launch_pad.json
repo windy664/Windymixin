@@ -1,0 +1,28 @@
+{
+  "parent": "nerospace:guide/rocket_fuel_canister",
+  "criteria": {
+    "has_item": {
+      "conditions": {
+        "items": [
+          {
+            "items": "nerospace:rocket_launch_pad"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": "制作火箭发射台（建议3x3）",
+    "icon": {
+      "id": "nerospace:rocket_launch_pad"
+    },
+    "title": "地面指挥"
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

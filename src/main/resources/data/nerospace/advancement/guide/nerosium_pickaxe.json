@@ -1,0 +1,28 @@
+{
+  "parent": "nerospace:root",
+  "criteria": {
+    "has_item": {
+      "conditions": {
+        "items": [
+          {
+            "items": "nerospace:nerosium_pickaxe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": "制作尼罗锡镐",
+    "icon": {
+      "id": "nerospace:nerosium_pickaxe"
+    },
+    "title": "利器在手"
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

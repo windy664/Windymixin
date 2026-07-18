@@ -1,0 +1,28 @@
+{
+  "parent": "nerospace:guide/terraformed_ground",
+  "criteria": {
+    "has_item": {
+      "conditions": {
+        "items": [
+          {
+            "items": "nerospace:hydration_module"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": "建造水合模块，为地形改造器供给冰辉石",
+    "icon": {
+      "id": "nerospace:hydration_module"
+    },
+    "title": "融雪成水"
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

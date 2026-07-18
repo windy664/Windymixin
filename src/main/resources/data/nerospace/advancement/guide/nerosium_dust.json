@@ -1,0 +1,28 @@
+{
+  "parent": "nerospace:nerosium_grinder",
+  "criteria": {
+    "has_item": {
+      "conditions": {
+        "items": [
+          {
+            "items": "nerospace:nerosium_dust"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": "将尼罗锡研磨成粉",
+    "icon": {
+      "id": "nerospace:nerosium_dust"
+    },
+    "title": "精研细磨"
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

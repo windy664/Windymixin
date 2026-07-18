@@ -1,0 +1,25 @@
+{
+  "parent": "nerospace:guide/rocket_tier_4",
+  "criteria": {
+    "reached_glacira": {
+      "conditions": {
+        "to": "nerospace:glacira"
+      },
+      "trigger": "minecraft:changed_dimension"
+    }
+  },
+  "display": {
+    "description": "前往冰封卫星格拉西拉",
+    "frame": "goal",
+    "icon": {
+      "id": "nerospace:glacite"
+    },
+    "title": "踏入寒冰"
+  },
+  "requirements": [
+    [
+      "reached_glacira"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,28 @@
+{
+  "parent": "nerospace:guide/quarry_landmark",
+  "criteria": {
+    "has_item": {
+      "conditions": {
+        "items": [
+          {
+            "items": "nerospace:quarry_controller"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": "建造采石场控制器，实现自动化挖掘",
+    "icon": {
+      "id": "nerospace:quarry_controller"
+    },
+    "title": "露天矿场"
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

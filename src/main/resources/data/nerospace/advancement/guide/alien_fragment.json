@@ -1,0 +1,28 @@
+{
+  "parent": "nerospace:root",
+  "criteria": {
+    "has_item": {
+      "conditions": {
+        "items": [
+          {
+            "items": "nerospace:alien_fragment"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": "从坠落的陨石中获取异星碎片",
+    "icon": {
+      "id": "nerospace:alien_fragment"
+    },
+    "title": "天外来客"
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

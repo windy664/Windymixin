@@ -1,0 +1,173 @@
+{
+  "creativetab.agritechevolved": "农业科技：进化",
+
+  "block.agritechevolved.basic_planter": "基础橡木种植器",
+  "block.agritechevolved.basic_acacia_planter": "基础金合欢木种植器",
+  "block.agritechevolved.basic_bamboo_planter": "基础竹种植器",
+  "block.agritechevolved.basic_birch_planter": "基础白桦木种植器",
+  "block.agritechevolved.basic_cherry_planter": "基础樱花木种植器",
+  "block.agritechevolved.basic_crimson_planter": "基础绯红木种植器",
+  "block.agritechevolved.basic_dark_oak_planter": "基础深色橡木种植器",
+  "block.agritechevolved.basic_jungle_planter": "基础丛林木种植器",
+  "block.agritechevolved.basic_mangrove_planter": "基础红树木种植器",
+  "block.agritechevolved.basic_spruce_planter": "基础云杉木种植器",
+  "block.agritechevolved.basic_warped_planter": "基础诡异木种植器",
+  "block.agritechevolved.basic_pale_oak_planter": "基础苍白橡木种植器",
+
+  "block.agritechevolved.advanced_planter": "高级种植器",
+
+  "block.agritechevolved.composter": "堆肥器",
+  "block.agritechevolved.silo": "筒仓",
+  "block.agritechevolved.fertilizer_spreader": "施肥机",
+
+  "block.agritechevolved.biomass_burner": "生物质燃烧器",
+
+  "block.agritechevolved.capacitor_tier1": "电容器 Tier 1",
+  "block.agritechevolved.capacitor_tier2": "电容器 Tier 2",
+  "block.agritechevolved.capacitor_tier3": "电容器 Tier 3",
+
+  "block.agritechevolved.compacted_biomass_block": "压缩生物质块",
+
+  "block.agritechevolved.infused_farmland": "注魔耕地",
+  "block.agritechevolved.mulch": "护根物",
+
+  "item.agritechevolved.sm_mk1": "速度升级 MK1",
+  "item.agritechevolved.sm_mk2": "速度升级 MK2",
+  "item.agritechevolved.sm_mk3": "速度升级 MK3",
+  "item.agritechevolved.ym_mk1": "产量升级 MK1",
+  "item.agritechevolved.ym_mk2": "产量升级 MK2",
+  "item.agritechevolved.ym_mk3": "产量升级 MK3",
+  "item.agritechevolved.rm_mk1": "范围升级 MK1",
+  "item.agritechevolved.rm_mk2": "范围升级 MK2",
+  "item.agritechevolved.rm_mk3": "范围升级 MK3",
+
+  "item.agritechevolved.cloche_dome": "温室罩",
+
+  "item.agritechevolved.cloche.tooltip.line1": "放置在种植器上可提高生长速度和产量。",
+  "item.agritechevolved.cloche.tooltip.line2": "与肥料叠加使用可获得最大效率。",
+  "item.agritechevolved.cloche.tooltip.line3": "空手 Shift+右键 可移除。",
+
+  "item.agritechevolved.crude_biomass": "粗制生物质",
+  "item.agritechevolved.biomass": "生物质",
+  "item.agritechevolved.compacted_biomass": "压缩生物质",
+
+  "gui.agritechevolved.basic_planter": "基础种植器",
+  "gui.agritechevolved.advanced_planter": "高级种植器",
+  "gui.agritechevolved.biomass_burner": "生物质燃烧器",
+  "gui.agritechevolved.composter": "堆肥器",
+  "gui.agritechevolved.capacitor": "电容器",
+  "gui.agritechevolved.silo": "筒仓",
+  "gui.agritechevolved.fertilizer_spreader": "施肥机",
+
+  "message.agritechevolved.invalid_seed_soil_combination": "种子/树苗无法在此土壤上生长",
+  "message.agritechevolved.same_farmland": "这块耕地已经是该类型了！",
+  "message.agritechevolved.same_ma_farmland": "无法降低神秘耕地等级",
+
+  "tooltip.agritechevolved.sm_mk1": "§6§n§l按住 Shift 查看详情§r§r§r",
+  "tooltip.agritechevolved.sm_mk2": "§6§n§l按住 Shift 查看详情§r§r§r",
+  "tooltip.agritechevolved.sm_mk3": "§6§n§l按住 Shift 查看详情§r§r§r",
+
+  "tooltip.agritechevolved.ym_mk1": "§6§n§l按住 Shift 查看详情§r§r§r",
+  "tooltip.agritechevolved.ym_mk2": "§6§n§l按住 Shift 查看详情§r§r§r",
+  "tooltip.agritechevolved.ym_mk3": "§6§n§l按住 Shift 查看详情§r§r§r",
+
+  "tooltip.agritechevolved.crude_biomass": "生物质燃烧器的入门燃料",
+  "tooltip.agritechevolved.biomass": "用于制作压缩生物质",
+  "tooltip.agritechevolved.compacted": "用于制作护根物",
+
+  "tooltip.agritechevolved.mulch": "§a用于种植器。提升 50% 生长速度。可制作注魔耕地§r",
+  "tooltip.agritechevolved.infused_farmland": "§a用于种植器或作为普通耕地。提升 100% 生长速度§r",
+
+  "jei.agritechevolved.planter.tooltip": "基础与高级种植器",
+  "jei.agritechevolved.composting.tooltip": "堆肥",
+
+  "jei.agritechevolved.farmland_tilling.title": "制作耕地",
+
+  "tooltip.agritechevolved.stored_energy": "已存储能量",
+  "tooltip.agritechevolved.growth_progress": "生长进度",
+  "tooltip.agritechevolved.view_recipes": "点击查看配方",
+
+  "tooltip.agritechevolved.composting_progress": "堆肥进度",
+  "tooltip.agritechevolved.composting_info": "无能量时可慢速运行",
+
+  "tooltip.agritechevolved.burner.energy": "能量：%s / %s RF",
+  "tooltip.agritechevolved.burner.energy_percentage": "%s%% 满",
+  "tooltip.agritechevolved.burner.burning_progress": "燃烧进度",
+  "tooltip.agritechevolved.burner.progress_percentage": "%s%% 完成",
+  "tooltip.agritechevolved.burner.time_remaining": "剩余 %s 秒",
+  "tooltip.agritechevolved.burner.no_fuel": "无燃料",
+  "tooltip.agritechevolved.burner.insert_fuel": "放入生物质",
+  "tooltip.agritechevolved.burner.fuel_slot": "燃料槽",
+  "tooltip.agritechevolved.burner.accepts": "可使用：",
+  "tooltip.agritechevolved.burner.accepts_crude_biomass": "• 粗制生物质",
+  "tooltip.agritechevolved.burner.accepts_biomass": "• 生物质",
+  "tooltip.agritechevolved.burner.accepts_compacted_biomass": "• 压缩生物质",
+  "tooltip.agritechevolved.burner.accepts_compacted_biomass_block": "• 压缩生物质块",
+
+  "tooltip.agritechevolved.capacitor.title": "%s 电容器",
+  "tooltip.agritechevolved.capacitor.energy_storage": "能量存储",
+  "tooltip.agritechevolved.capacitor.energy": "%s / %s RF",
+  "tooltip.agritechevolved.capacitor.energy_percentage": "%s%% 满",
+  "tooltip.agritechevolved.capacitor.transfer_rate": "传输速率：%s RF/t",
+  "tooltip.agritechevolved.capacitor.description": "RF 存储与分配",
+  "tooltip.agritechevolved.capacitor.max_transfer": "最大传输：%s RF/t",
+  "tooltip.agritechevolved.capacitor.information": "电容器信息",
+  "tooltip.agritechevolved.capacitor.info_stores": "• 存储和分配 RF 能量",
+  "tooltip.agritechevolved.capacitor.info_balances": "• 自动平衡能量",
+  "tooltip.agritechevolved.capacitor.info_automatic": "• 无需手动操作",
+  "tooltip.agritechevolved.capacitor.stored_energy": "已存储能量：%s RF",
+
+  "tooltip.agritechevolved.biomass.rf_generation": "燃烧时产生 %s RF",
+  "tooltip.agritechevolved.compacted_biomass.rf_generation": "燃烧时产生 %s RF",
+  "tooltip.agritechevolved.crude_biomass.rf_generation": "燃烧时产生 %s RF",
+  "tooltip.agritechevolved.crude_biomass.inefficient": "效率很低",
+
+  "tooltip.agritechevolved.module.shift_info": "§6§o按住 Shift 查看信息§r",
+  "tooltip.agritechevolved.module.speed_boost": "§a提升处理速度 %s%%§r",
+  "tooltip.agritechevolved.module.power_increase": "§c同时增加能耗 %s%%§r",
+  "tooltip.agritechevolved.module.yield_boost": "§a提升产量 %s%%§r",
+  "tooltip.agritechevolved.module.speed_reduction": "§c同时降低处理速度 %s%%§r",
+  "tooltip.agritechevolved.module.rm_mk1": "§a增加筒仓和施肥机范围 16 格§r",
+  "tooltip.agritechevolved.module.rm_mk2": "§a增加筒仓和施肥机范围 32 格§r",
+  "tooltip.agritechevolved.module.rm_mk3": "§a增加筒仓和施肥机范围 64 格§r",
+
+  "tooltip.agritechevolved.fuel.burn_duration": "§b燃烧 %s 秒§r",
+  "tooltip.agritechevolved.fuel.rf_per_second": "§e每秒产生 %s RF§r",
+  "tooltip.agritechevolved.fuel.duration_bonus": "§a+%s%% RF（燃烧时间更长）§r",
+  "tooltip.agritechevolved.fuel.duration_penalty": "§c-%s%% RF（燃烧时间更短）§r",
+  "tooltip.agritechevolved.fuel.shift_info": "§6§o按住 Shift 查看详情§r",
+  "tooltip.agritechevolved.crude_fuel.shift_info": "§6§o按住 Shift 查看详情§r",
+
+  "tooltip.agritechevolved.infused_farmland.growth_boost": "提升 100% 生长速度",
+  "tooltip.agritechevolved.infused_farmland.hoe_craft": "在工作台中将护根物与锄合成",
+  "tooltip.agritechevolved.infused_farmland.hoe_craft2": "或在种植器中耕作护根物",
+  "tooltip.agritechevolved.mulch.growth_boost": "提升 50% 作物生长速度",
+  "tooltip.agritechevolved.mulch.hoe_craft": "在工作台中与锄合成可得注魔耕地",
+  "tooltip.agritechevolved.planter.till": "用锄右键耕作内部放置的土壤",
+  "tooltip.agritechevolved.planter.fertilize": "用骨粉或肥料右键可加速作物生长",
+
+  "tooltip.agritechevolved.slot.plant": "植物槽",
+  "tooltip.agritechevolved.slot.soil": "土壤槽",
+  "tooltip.agritechevolved.slot.fertilizer": "肥料槽",
+  "tooltip.agritechevolved.slot.upgrade_1": "升级槽 1",
+  "tooltip.agritechevolved.slot.upgrade_2": "升级槽 2",
+  "tooltip.agritechevolved.slot.upgrade": "速度升级槽",
+  "tooltip.agritechevolved.slot.range_module": "范围升级槽",
+
+  "tooltip.agritechevolved.soil_type": "土壤信息",
+  "tooltip.agritechevolved.soil_growth_modifier": "生长速度：%s",
+  "tooltip.agritechevolved.fertilizer_type": "肥料信息",
+  "tooltip.agritechevolved.fertilizer_speed": "生长速度：%s",
+  "tooltip.agritechevolved.fertilizer_yield": "产量加成：%s",
+
+  "config.jade.agritechevolved.planter_info": "种植器信息",
+  "config.jade.plugin_agritechevolved.planter_info": "种植器信息",
+  "jade.agritechevolved.crop_ready": "%s - 可以收获！",
+  "jade.agritechevolved.crop_progress": "%s - 阶段 %d/%d (%d%%)",
+  "jade.agritechevolved.soil_info": "土壤：%s（%s 生长速度）",
+  "jade.agritechevolved.modules_installed": "模块：%s",
+  "jade.agritechevolved.fertilizer_info": "肥料：%s（速度：%s，产量：%s）",
+  "jade.agritechevolved.cloche_installed": "温室罩：已安装（速度：%s，产量：%s）",
+  "jade.agritechevolved.energy_info": "能量：%s / %s RF",
+  "jade.agritechevolved.module_info": "模块：速度 %s | 产量 %s"
+}

@@ -1,0 +1,25 @@
+{
+  "parent": "nerospace:rocket",
+  "criteria": {
+    "reached_station": {
+      "conditions": {
+        "to": "nerospace:station"
+      },
+      "trigger": "minecraft:changed_dimension"
+    }
+  },
+  "display": {
+    "description": "停靠轨道空间站",
+    "frame": "goal",
+    "icon": {
+      "id": "nerospace:station_floor"
+    },
+    "title": "轨道空间站"
+  },
+  "requirements": [
+    [
+      "reached_station"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

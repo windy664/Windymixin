@@ -1,0 +1,28 @@
+{
+  "parent": "nerospace:guide/alien_fragment",
+  "criteria": {
+    "has_item": {
+      "conditions": {
+        "items": [
+          {
+            "items": "nerospace:alien_tech_scrap"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": "从陨石中回收异星科技碎片",
+    "icon": {
+      "id": "nerospace:alien_tech_scrap"
+    },
+    "title": "回收科技"
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

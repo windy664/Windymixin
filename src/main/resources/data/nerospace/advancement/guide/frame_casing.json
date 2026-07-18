@@ -1,0 +1,28 @@
+{
+  "parent": "nerospace:greenxertz",
+  "criteria": {
+    "has_item": {
+      "conditions": {
+        "items": [
+          {
+            "items": "nerospace:frame_casing"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": "用尼罗钢制作框架护甲——采石场用它建造框架",
+    "icon": {
+      "id": "nerospace:frame_casing"
+    },
+    "title": "框架护甲"
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

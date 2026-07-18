@@ -1,0 +1,38 @@
+{
+  "parent": "nerospace:guide/oxygen_suit_t2",
+  "criteria": {
+    "has_thermal_suit": {
+      "conditions": {
+        "items": [
+          {
+            "items": "nerospace:oxygen_suit_heat_helmet"
+          },
+          {
+            "items": "nerospace:oxygen_suit_heat_chestplate"
+          },
+          {
+            "items": "nerospace:oxygen_suit_heat_leggings"
+          },
+          {
+            "items": "nerospace:oxygen_suit_heat_boots"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": "组装完整的耐热服——辛达拉的高温不再消耗你的空气",
+    "frame": "goal",
+    "icon": {
+      "id": "nerospace:oxygen_suit_heat_helmet"
+    },
+    "title": "烈焰锻造"
+  },
+  "requirements": [
+    [
+      "has_thermal_suit"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

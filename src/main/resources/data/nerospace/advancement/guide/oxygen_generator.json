@@ -1,0 +1,28 @@
+{
+  "parent": "nerospace:station",
+  "criteria": {
+    "has_item": {
+      "conditions": {
+        "items": [
+          {
+            "items": "nerospace:oxygen_generator"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": "建造氧气发生器",
+    "icon": {
+      "id": "nerospace:oxygen_generator"
+    },
+    "title": "呼吸之源"
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

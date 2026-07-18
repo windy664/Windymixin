@@ -1,0 +1,28 @@
+{
+  "parent": "nerospace:glacira",
+  "criteria": {
+    "has_item": {
+      "conditions": {
+        "items": [
+          {
+            "items": "nerospace:glacite"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": "在格拉西拉开采冰辉石",
+    "icon": {
+      "id": "nerospace:glacite"
+    },
+    "title": "冰川之心"
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

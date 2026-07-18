@@ -1,0 +1,38 @@
+{
+  "parent": "nerospace:guide/oxygen_suit_t2",
+  "criteria": {
+    "has_cryo_suit": {
+      "conditions": {
+        "items": [
+          {
+            "items": "nerospace:oxygen_suit_cold_helmet"
+          },
+          {
+            "items": "nerospace:oxygen_suit_cold_chestplate"
+          },
+          {
+            "items": "nerospace:oxygen_suit_cold_leggings"
+          },
+          {
+            "items": "nerospace:oxygen_suit_cold_boots"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": "组装完整的低温服——格拉西拉的严寒不再消耗你的空气",
+    "frame": "goal",
+    "icon": {
+      "id": "nerospace:oxygen_suit_cold_helmet"
+    },
+    "title": "御寒之甲"
+  },
+  "requirements": [
+    [
+      "has_cryo_suit"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

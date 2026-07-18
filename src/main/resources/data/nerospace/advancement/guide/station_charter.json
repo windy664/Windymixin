@@ -1,0 +1,12 @@
+{
+  "parent": "nerospace:station",
+  "criteria": { "impossible": { "trigger": "minecraft:impossible" } },
+  "display": {
+    "description": "用空间站许可证建立你自己的空间站",
+    "frame": "goal",
+    "icon": { "id": "nerospace:station_charter" },
+    "title": "轨道家园"
+  },
+  "requirements": [ [ "impossible" ] ],
+  "sends_telemetry_event": true
+}

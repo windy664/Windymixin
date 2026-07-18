@@ -1,0 +1,28 @@
+{
+  "parent": "nerospace:greenxertz",
+  "criteria": {
+    "has_item": {
+      "conditions": {
+        "items": [
+          {
+            "items": "nerospace:rocket_tier_3"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": "制作三级火箭（发射台需要围墙环绕）",
+    "icon": {
+      "id": "nerospace:rocket_tier_3"
+    },
+    "title": "飞向火卫"
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

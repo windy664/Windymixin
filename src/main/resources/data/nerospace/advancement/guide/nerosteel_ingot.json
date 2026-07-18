@@ -1,0 +1,28 @@
+{
+  "parent": "nerospace:greenxertz",
+  "criteria": {
+    "has_item": {
+      "conditions": {
+        "items": [
+          {
+            "items": "nerospace:nerosteel_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": "从绿泽特矿石中熔炼尼罗钢锭",
+    "icon": {
+      "id": "nerospace:nerosteel_ingot"
+    },
+    "title": "异星合金"
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

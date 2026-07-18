@@ -1,0 +1,28 @@
+{
+  "parent": "nerospace:nerosium_grinder",
+  "criteria": {
+    "has_item": {
+      "conditions": {
+        "items": [
+          {
+            "items": "nerospace:combustion_generator"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": "建造燃烧发电机",
+    "icon": {
+      "id": "nerospace:combustion_generator"
+    },
+    "title": "燃烧之光"
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

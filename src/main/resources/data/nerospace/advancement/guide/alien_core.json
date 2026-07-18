@@ -1,0 +1,28 @@
+{
+  "parent": "nerospace:guide/alien_tech_scrap",
+  "criteria": {
+    "has_item": {
+      "conditions": {
+        "items": [
+          {
+            "items": "nerospace:alien_core"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": "在陨石中找到稀有的异星核心",
+    "icon": {
+      "id": "nerospace:alien_core"
+    },
+    "title": "异星核心"
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

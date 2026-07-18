@@ -1,0 +1,38 @@
+{
+  "parent": "nerospace:guide/oxygen_generator",
+  "criteria": {
+    "has_suit": {
+      "conditions": {
+        "items": [
+          {
+            "items": "nerospace:oxygen_suit_helmet"
+          },
+          {
+            "items": "nerospace:oxygen_suit_chestplate"
+          },
+          {
+            "items": "nerospace:oxygen_suit_leggings"
+          },
+          {
+            "items": "nerospace:oxygen_suit_boots"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": "组装完整的氧气服",
+    "frame": "goal",
+    "icon": {
+      "id": "nerospace:oxygen_suit_helmet"
+    },
+    "title": "整装待发"
+  },
+  "requirements": [
+    [
+      "has_suit"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
