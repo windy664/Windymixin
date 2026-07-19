@@ -142,6 +142,9 @@ dependencies {
 
     // Tom's Simple Storage 26.2 snapshot（终端同步修复 mixin 软依赖，编译期使用）
     compileOnly "maven.modrinth:XZNI4Cpy:k7eYceQI"
+
+    // Iris Shaders（修复 TextDisplay 悬浮字 mixin 编译期引用 ImmediateState）
+    compileOnly "maven.modrinth:YL57xq9U:bXt6zsZT"
 }
 
 // This block of code expands all declared replace properties in the specified resource targets.
