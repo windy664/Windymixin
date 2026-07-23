@@ -14,11 +14,11 @@
     "TomsStorage.TerminalSyncManagerMixin"
   ],
   "client": [
+    "Iris.TextDisplayRendererMixin",
     "Minecraft.ChatFilterMixin",
-    "Iris.IrisTextDisplayMixin",
-    "Iris.IrisTextDisplayPipelineMixin",
     "Minecraft.MinecraftShutdownMixin",
-    "TomsStorage.NetworkHandlerClientMixin"
+    "TomsStorage.NetworkHandlerClientMixin",
+    "Mysticalagriculture.AOEOutlineRendererMixin"
   ],
   "injectors": {
     "defaultRequire": 1
