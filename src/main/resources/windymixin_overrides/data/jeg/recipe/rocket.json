@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " S ",
+    "GTG",
+    " I "
+  ],
+  "key": {
+    "S": "#c:nuggets/steel",
+    "G": "minecraft:gunpowder",
+    "T": "minecraft:tnt",
+    "I": "#c:ingots/steel"
+  },
+  "result": {
+    "id": "jeg:rocket",
+    "count": 2
+  }
+}

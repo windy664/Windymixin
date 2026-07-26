@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#c:nuggets/steel",
+    "#c:ingots/copper",
+    "minecraft:gunpowder",
+    "minecraft:gunpowder"
+  ],
+  "result": {
+    "id": "jeg:shotgun_shell",
+    "count": 12
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "enderio:slicing",
+  "energy": 5000,
+  "inputs": [
+    "enderio:dark_steel_ingot",
+    "#minecraft:logs",
+    "#minecraft:logs",
+    "energizedpower:steel_rod",
+    "minecraft:redstone",
+    "#c:ingots/iron"
+  ],
+  "output": {
+    "id": "jeg:pump_shotgun"
+  }
+}

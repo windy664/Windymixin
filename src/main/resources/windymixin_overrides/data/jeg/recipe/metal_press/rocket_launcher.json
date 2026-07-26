@@ -1,0 +1,13 @@
+{
+  "type": "energizedpower:metal_press",
+  "ingredient": {
+    "count": 2,
+    "ingredient": "mekanism:alloy_reinforced"
+  },
+  "pressMold": {
+    "id": "energizedpower:rod_press_mold"
+  },
+  "result": {
+    "id": "jeg:rocket_launcher"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#c:nuggets/steel",
+    "#c:ingots/copper",
+    "minecraft:gunpowder"
+  ],
+  "result": {
+    "id": "jeg:pistol_ammo",
+    "count": 16
+  }
+}

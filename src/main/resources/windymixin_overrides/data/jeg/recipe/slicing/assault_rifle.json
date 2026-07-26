@@ -1,0 +1,15 @@
+{
+  "type": "enderio:slicing",
+  "energy": 6000,
+  "inputs": [
+    "enderio:dark_steel_ingot",
+    "enderio:dark_steel_ingot",
+    "energizedpower:steel_gear",
+    "energizedpower:steel_rod",
+    "minecraft:redstone",
+    "minecraft:flint"
+  ],
+  "output": {
+    "id": "jeg:assault_rifle"
+  }
+}

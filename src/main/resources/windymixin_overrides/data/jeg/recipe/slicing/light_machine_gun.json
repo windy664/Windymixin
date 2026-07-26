@@ -1,0 +1,15 @@
+{
+  "type": "enderio:slicing",
+  "energy": 10000,
+  "inputs": [
+    "mekanism:alloy_infused",
+    "mekanism:alloy_infused",
+    "mekanism:elite_control_circuit",
+    "energizedpower:steel_gear",
+    "mekanism:ingot_refined_glowstone",
+    "mekanism:ingot_refined_glowstone"
+  ],
+  "output": {
+    "id": "jeg:light_machine_gun"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "mekanism:combining",
+  "main_input": {
+    "count": 1,
+    "ingredient": "mekanism:ultimate_control_circuit"
+  },
+  "extra_input": {
+    "count": 1,
+    "ingredient": "mekanism:alloy_atomic"
+  },
+  "output": {
+    "id": "jeg:hypersonic_cannon"
+  }
+}

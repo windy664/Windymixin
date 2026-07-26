@@ -1,0 +1,16 @@
+{
+  "type": "enderio:slicing",
+  "energy": 3000,
+  "inputs": [
+    "#c:ingots/iron",
+    "#c:ingots/iron",
+    "minecraft:stick",
+    "minecraft:stick",
+    "minecraft:air",
+    "minecraft:air"
+  ],
+  "output": {
+    "count": 2,
+    "id": "energizedpower:iron_rod"
+  }
+}

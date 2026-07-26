@@ -1,0 +1,10 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "count": 2,
+    "ingredient": "#c:dusts/iron"
+  },
+  "output": {
+    "id": "energizedpower:iron_gear"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:crushing",
+  "input": {
+    "count": 1,
+    "ingredient": "energizedpower:steel_rod"
+  },
+  "output": {
+    "count": 1,
+    "id": "mekanism:dust_steel"
+  }
+}

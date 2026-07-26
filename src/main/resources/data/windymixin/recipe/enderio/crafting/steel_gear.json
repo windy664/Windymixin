@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": "#c:ingots/steel",
+    "N": "#c:nuggets/steel",
+    "R": "minecraft:redstone"
+  },
+  "pattern": [
+    "NSN",
+    "SRS",
+    "NSN"
+  ],
+  "result": {
+    "id": "energizedpower:steel_gear"
+  }
+}

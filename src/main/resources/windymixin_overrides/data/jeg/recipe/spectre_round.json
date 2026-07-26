@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#c:nuggets/steel",
+    "#c:ingots/copper",
+    "minecraft:ender_pearl",
+    "minecraft:gunpowder"
+  ],
+  "result": {
+    "id": "jeg:spectre_round",
+    "count": 8
+  }
+}

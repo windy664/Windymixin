@@ -148,6 +148,12 @@ dependencies {
 
     //神秘农业
     implementation "maven.modrinth:C95ReXie:rRasTeFh"
+
+    // Just Enough Guns（弹道兼容 mixin 编译用）
+    compileOnly "maven.modrinth:dxTydNDF:DSRl1pA1"
+
+    // Integrated Dynamics（区块卸载崩溃修复 mixin 编译用）
+    compileOnly "maven.modrinth:yYzdQHJI:oP6rGM1E"
 }
 
 // This block of code expands all declared replace properties in the specified resource targets.

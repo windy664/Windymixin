@@ -7,18 +7,19 @@
   "mixins": [
     "JEI.PacketGiveItemStackMixin",
     "JEI.PacketRequestCheatPermissionMixin",
+    "JEG.BallisticMixin",
     "Minecraft.AbstractContainerMenuMixin",
     "Minecraft.BlockEntityAccessor",
     "Minecraft.EnderDragonMixin",
     "Minecraft.StringUtilMixin",
-    "TomsStorage.TerminalSyncManagerMixin"
+    "TomsStorage.TerminalSyncManagerMixin",
+    "IntegratedDynamics.FixChunkUnloadCrashMixin"
   ],
   "client": [
     "Iris.TextDisplayRendererMixin",
     "Minecraft.ChatFilterMixin",
     "Minecraft.MinecraftShutdownMixin",
-    "TomsStorage.NetworkHandlerClientMixin",
-    "Mysticalagriculture.AOEOutlineRendererMixin"
+    "TomsStorage.NetworkHandlerClientMixin"
   ],
   "injectors": {
     "defaultRequire": 1

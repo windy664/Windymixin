@@ -1,0 +1,14 @@
+{
+  "type": "mekanism:combining",
+  "main_input": {
+    "count": 1,
+    "ingredient": "energizedpower:steel_rod"
+  },
+  "extra_input": {
+    "count": 1,
+    "ingredient": "energizedpower:steel_gear"
+  },
+  "output": {
+    "id": "jeg:custom_smg"
+  }
+}

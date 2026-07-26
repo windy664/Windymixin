@@ -1,0 +1,15 @@
+{
+  "type": "enderio:slicing",
+  "energy": 10000,
+  "inputs": [
+    "mekanism:alloy_infused",
+    "mekanism:alloy_infused",
+    "mekanism:alloy_reinforced",
+    "mekanism:elite_control_circuit",
+    "mekanism:alloy_reinforced",
+    "mekanism:alloy_infused"
+  ],
+  "output": {
+    "id": "jeg:hollenfire_mk2"
+  }
+}

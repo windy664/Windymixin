@@ -1,0 +1,10 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "count": 2,
+    "ingredient": "mekanism:dust_steel"
+  },
+  "output": {
+    "id": "energizedpower:steel_gear"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "enderio:slicing",
+  "energy": 7000,
+  "inputs": [
+    "enderio:dark_steel_ingot",
+    "enderio:dark_steel_ingot",
+    "enderio:pulsating_alloy_ingot",
+    "energizedpower:steel_rod",
+    "minecraft:ender_pearl",
+    "minecraft:redstone"
+  ],
+  "output": {
+    "id": "jeg:blossom_rifle"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "mekanism:combining",
+  "main_input": {
+    "count": 1,
+    "ingredient": "mekanism:dust_steel"
+  },
+  "extra_input": {
+    "count": 1,
+    "ingredient": "minecraft:stick"
+  },
+  "output": {
+    "id": "energizedpower:steel_rod"
+  }
+}
