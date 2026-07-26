@@ -5,7 +5,9 @@
     "#c:ingots/steel",
     "#c:ingots/steel",
     "minecraft:stick",
-    "minecraft:stick"
+    "minecraft:stick",
+    "minecraft:air",
+    "minecraft:air"
   ],
   "output": {
     "count": 2,
