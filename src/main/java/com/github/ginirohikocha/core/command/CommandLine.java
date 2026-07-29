@@ -30,7 +30,7 @@ public class CommandLine {
         return this;
     }
 
-    public void finish(Consumer<CommandWrapper> handler) {
-        // no-op
+    public CommandParser finish(Consumer<CommandWrapper> handler) {
+        return null;
     }
 }
