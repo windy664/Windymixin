@@ -7,7 +7,6 @@ import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 
 import java.util.HashMap;
-import java.util.concurrent.ConcurrentModificationException;
 import java.util.function.Function;
 
 /**
@@ -32,7 +31,7 @@ public class ConduitBakerMixin {
         synchronized (map) {
             try {
                 return original.call(map, key, mappingFunction);
-            } catch (ConcurrentModificationException e) {
+            } catch (java.util.concurrent.ConcurrentModificationException e) {
                 return null;
             }
         }
