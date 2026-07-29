@@ -44,12 +44,19 @@ public class MaRecipeNerf {
         Iterator<Map.Entry<Identifier, JsonElement>> it = recipes.entrySet().iterator();
         int removed = 0;
 
+        int debugCount = 0;
         while (it.hasNext()) {
             Identifier id = it.next().getKey();
             if (!MA.equals(id.getNamespace())) continue;
 
             String path = id.getPath();
             String fileName = path.substring(path.lastIndexOf('/') + 1).replace(".json", "");
+
+            // Debug: 打印前5个MA配方ID
+            if (debugCount < 5) {
+                Windymixin.LOGGER.info("[Windymixin] MA配方ID: {}", id);
+                debugCount++;
+            }
 
             boolean shouldRemove = false;
             for (String prefix : REMOVE_PREFIXES) {
