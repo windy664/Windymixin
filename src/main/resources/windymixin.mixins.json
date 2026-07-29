@@ -14,8 +14,8 @@
     "Minecraft.StringUtilMixin",
     "TomsStorage.TerminalSyncManagerMixin",
     "IntegratedDynamics.FixChunkUnloadCrashMixin",
-    "Mysticalagriculture.EssenceVesselRendererMixin"
-    // "EnderIO.ConduitBakerMixin" — 网络恢复后取消注释
+    "Mysticalagriculture.EssenceVesselRendererMixin",
+    "EnderIO.ConduitBakerMixin"
   ],
   "client": [
     "Iris.TextDisplayRendererMixin",
