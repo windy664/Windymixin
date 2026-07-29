@@ -1,0 +1,28 @@
+{
+  "type": "cucumber:shaped_tag",
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:sulfur"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:dusts/sulfur"
+      }
+    }
+  ],
+  "pattern": [
+    "EEE",
+    "   ",
+    "   "
+  ],
+  "key": {
+    "E": "mysticalagriculture:sulfur_essence"
+  },
+  "result": {
+    "tag": "c:dusts/sulfur",
+    "count": 8
+  }
+}

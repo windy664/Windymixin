@@ -1,0 +1,26 @@
+{
+  "type": "crafting_shaped",
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:nether"
+    },
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:fire"
+    }
+  ],
+  "pattern": [
+    "EEE",
+    "EFE",
+    "EEE"
+  ],
+  "key": {
+    "E": "mysticalagriculture:nether_essence",
+    "F": "mysticalagriculture:fire_essence"
+  },
+  "result": {
+    "id": "minecraft:soul_sand",
+    "count": 16
+  }
+}

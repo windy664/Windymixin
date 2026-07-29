@@ -1,0 +1,28 @@
+{
+  "type": "cucumber:shaped_tag",
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:aluminum"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ingots/aluminum"
+      }
+    }
+  ],
+  "pattern": [
+    "EEE",
+    "E E",
+    "EEE"
+  ],
+  "key": {
+    "E": "mysticalagriculture:aluminum_essence"
+  },
+  "result": {
+    "tag": "c:ingots/aluminum",
+    "count": 8
+  }
+}

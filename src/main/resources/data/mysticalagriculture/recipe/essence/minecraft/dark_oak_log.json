@@ -1,0 +1,21 @@
+{
+  "type": "crafting_shaped",
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:wood"
+    }
+  ],
+  "pattern": [
+    "  E",
+    "  E",
+    "  E"
+  ],
+  "key": {
+    "E": "mysticalagriculture:wood_essence"
+  },
+  "result": {
+    "id": "minecraft:dark_oak_log",
+    "count": 16
+  }
+}

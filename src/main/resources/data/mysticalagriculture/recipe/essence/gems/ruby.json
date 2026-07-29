@@ -1,0 +1,28 @@
+{
+  "type": "cucumber:shaped_tag",
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:ruby"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:gems/ruby"
+      }
+    }
+  ],
+  "pattern": [
+    "EEE",
+    "E E",
+    "EEE"
+  ],
+  "key": {
+    "E": "mysticalagriculture:ruby_essence"
+  },
+  "result": {
+    "tag": "c:gems/ruby",
+    "count": 6
+  }
+}

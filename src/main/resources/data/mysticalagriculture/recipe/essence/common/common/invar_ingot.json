@@ -1,0 +1,28 @@
+{
+  "type": "cucumber:shaped_tag",
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:invar"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ingots/invar"
+      }
+    }
+  ],
+  "pattern": [
+    "EEE",
+    "E E",
+    "EEE"
+  ],
+  "key": {
+    "E": "mysticalagriculture:invar_essence"
+  },
+  "result": {
+    "tag": "c:ingots/invar",
+    "count": 4
+  }
+}

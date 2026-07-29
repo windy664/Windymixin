@@ -1,0 +1,21 @@
+{
+  "type": "crafting_shaped",
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:zombie"
+    }
+  ],
+  "pattern": [
+    "EEE",
+    "ESE",
+    "EEE"
+  ],
+  "key": {
+    "E": "mysticalagriculture:zombie_essence",
+    "S": "mysticalagriculture:blank_skull"
+  },
+  "result": {
+    "id": "minecraft:zombie_head"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:earth"
+    }
+  ],
+  "type": "mysticalagriculture:reprocessor",
+  "input": "mysticalagriculture:earth_seeds",
+  "result": {
+    "count": 1,
+    "id": "mysticalagriculture:earth_essence"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "crafting_shaped",
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:diamond"
+    }
+  ],
+  "pattern": [
+    "EEE",
+    "EEE",
+    "EEE"
+  ],
+  "key": {
+    "E": "mysticalagriculture:diamond_essence"
+  },
+  "result": {
+    "id": "minecraft:diamond",
+    "count": 1
+  }
+}

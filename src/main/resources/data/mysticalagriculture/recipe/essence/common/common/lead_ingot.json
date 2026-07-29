@@ -1,0 +1,28 @@
+{
+  "type": "cucumber:shaped_tag",
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:lead"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ingots/lead"
+      }
+    }
+  ],
+  "pattern": [
+    "EEE",
+    "E E",
+    "EEE"
+  ],
+  "key": {
+    "E": "mysticalagriculture:lead_essence"
+  },
+  "result": {
+    "tag": "c:ingots/lead",
+    "count": 4
+  }
+}

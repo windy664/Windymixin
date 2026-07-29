@@ -1,0 +1,14 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:sulfur"
+    }
+  ],
+  "type": "mysticalagriculture:reprocessor",
+  "input": "mysticalagriculture:sulfur_seeds",
+  "result": {
+    "count": 1,
+    "id": "mysticalagriculture:sulfur_essence"
+  }
+}

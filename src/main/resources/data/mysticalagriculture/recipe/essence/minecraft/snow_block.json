@@ -1,0 +1,21 @@
+{
+  "type": "crafting_shaped",
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:ice"
+    }
+  ],
+  "pattern": [
+    " E ",
+    "E E",
+    " E "
+  ],
+  "key": {
+    "E": "mysticalagriculture:ice_essence"
+  },
+  "result": {
+    "id": "minecraft:snow_block",
+    "count": 12
+  }
+}

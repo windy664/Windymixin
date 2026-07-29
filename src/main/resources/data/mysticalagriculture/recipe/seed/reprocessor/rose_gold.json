@@ -1,0 +1,14 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:rose_gold"
+    }
+  ],
+  "type": "mysticalagriculture:reprocessor",
+  "input": "mysticalagriculture:rose_gold_seeds",
+  "result": {
+    "count": 1,
+    "id": "mysticalagriculture:rose_gold_essence"
+  }
+}

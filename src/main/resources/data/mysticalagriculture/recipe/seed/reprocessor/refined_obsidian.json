@@ -1,0 +1,14 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:refined_obsidian"
+    }
+  ],
+  "type": "mysticalagriculture:reprocessor",
+  "input": "mysticalagriculture:refined_obsidian_seeds",
+  "result": {
+    "count": 1,
+    "id": "mysticalagriculture:refined_obsidian_essence"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:cyanite"
+    }
+  ],
+  "type": "mysticalagriculture:reprocessor",
+  "input": "mysticalagriculture:cyanite_seeds",
+  "result": {
+    "count": 1,
+    "id": "mysticalagriculture:cyanite_essence"
+  }
+}

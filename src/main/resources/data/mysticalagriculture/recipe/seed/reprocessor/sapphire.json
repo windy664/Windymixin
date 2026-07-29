@@ -1,0 +1,14 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:sapphire"
+    }
+  ],
+  "type": "mysticalagriculture:reprocessor",
+  "input": "mysticalagriculture:sapphire_seeds",
+  "result": {
+    "count": 1,
+    "id": "mysticalagriculture:sapphire_essence"
+  }
+}

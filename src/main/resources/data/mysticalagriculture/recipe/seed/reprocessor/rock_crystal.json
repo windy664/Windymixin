@@ -1,0 +1,14 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:rock_crystal"
+    }
+  ],
+  "type": "mysticalagriculture:reprocessor",
+  "input": "mysticalagriculture:rock_crystal_seeds",
+  "result": {
+    "count": 1,
+    "id": "mysticalagriculture:rock_crystal_essence"
+  }
+}

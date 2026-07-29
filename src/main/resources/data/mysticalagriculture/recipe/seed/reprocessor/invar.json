@@ -1,0 +1,14 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:invar"
+    }
+  ],
+  "type": "mysticalagriculture:reprocessor",
+  "input": "mysticalagriculture:invar_seeds",
+  "result": {
+    "count": 1,
+    "id": "mysticalagriculture:invar_essence"
+  }
+}

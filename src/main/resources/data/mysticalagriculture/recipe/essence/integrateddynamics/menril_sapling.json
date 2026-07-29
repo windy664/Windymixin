@@ -1,0 +1,30 @@
+{
+  "type": "crafting_shaped",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "integrateddynamics"
+    },
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:menril"
+    },
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:nature"
+    }
+  ],
+  "pattern": [
+    "EFE",
+    "   ",
+    "   "
+  ],
+  "key": {
+    "E": "mysticalagriculture:menril_essence",
+    "F": "mysticalagriculture:nature_essence"
+  },
+  "result": {
+    "id": "integrateddynamics:menril_sapling",
+    "count": 8
+  }
+}

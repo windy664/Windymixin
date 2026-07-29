@@ -1,0 +1,14 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:soulium"
+    }
+  ],
+  "type": "mysticalagriculture:reprocessor",
+  "input": "mysticalagriculture:soulium_seeds",
+  "result": {
+    "count": 1,
+    "id": "mysticalagriculture:soulium_essence"
+  }
+}

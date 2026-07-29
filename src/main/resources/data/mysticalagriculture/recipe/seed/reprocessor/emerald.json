@@ -1,0 +1,14 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:emerald"
+    }
+  ],
+  "type": "mysticalagriculture:reprocessor",
+  "input": "mysticalagriculture:emerald_seeds",
+  "result": {
+    "count": 1,
+    "id": "mysticalagriculture:emerald_essence"
+  }
+}

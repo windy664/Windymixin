@@ -1,0 +1,21 @@
+{
+  "type": "crafting_shaped",
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:dye"
+    }
+  ],
+  "pattern": [
+    "  E",
+    " E ",
+    "  E"
+  ],
+  "key": {
+    "E": "mysticalagriculture:dye_essence"
+  },
+  "result": {
+    "id": "minecraft:brown_dye",
+    "count": 6
+  }
+}

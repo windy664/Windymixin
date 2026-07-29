@@ -1,0 +1,14 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:sky_stone"
+    }
+  ],
+  "type": "mysticalagriculture:reprocessor",
+  "input": "mysticalagriculture:sky_stone_seeds",
+  "result": {
+    "count": 1,
+    "id": "mysticalagriculture:sky_stone_essence"
+  }
+}

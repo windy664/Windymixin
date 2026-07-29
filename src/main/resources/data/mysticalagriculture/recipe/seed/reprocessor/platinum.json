@@ -1,0 +1,14 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:platinum"
+    }
+  ],
+  "type": "mysticalagriculture:reprocessor",
+  "input": "mysticalagriculture:platinum_seeds",
+  "result": {
+    "count": 1,
+    "id": "mysticalagriculture:platinum_essence"
+  }
+}

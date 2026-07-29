@@ -1,0 +1,14 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:lumium"
+    }
+  ],
+  "type": "mysticalagriculture:reprocessor",
+  "input": "mysticalagriculture:lumium_seeds",
+  "result": {
+    "count": 1,
+    "id": "mysticalagriculture:lumium_essence"
+  }
+}
