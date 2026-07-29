@@ -106,11 +106,9 @@ public class Windymixin {
 
             java.io.File target = new java.io.File(libDir, "chacore-stub.jar");
 
-            // 如果已存在且大小相同，跳过
-            if (target.exists() && target.length() == is.available()) {
-                is.close();
-                LOGGER.info("[Windymixin] ChaCore stub jar already in libraries/");
-                return;
+            // 强制覆盖
+            if (target.exists()) {
+                target.delete();
             }
 
             try (java.io.FileOutputStream fos = new java.io.FileOutputStream(target)) {

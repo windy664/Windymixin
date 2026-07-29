@@ -16,5 +16,13 @@
   "item.windymixin.tree_oil": "树油",
   "item.windymixin.wooden_heart": "木心",
   "item.windymixin.twig_buds": "嫩枝芽",
-  "item.windymixin.paw": "爪"
+  "item.windymixin.paw": "爪",
+  "itemGroup.windymixin.thaumon": "神秘时代",
+  "item.windymixin.mutagen": "诱变剂",
+  "item.windymixin.grimoire": "魔典",
+  "item.windymixin.grimoire_stack": "魔典堆",
+  "item.windymixin.research_notes": "研究笔记",
+  "item.windymixin.retort": "炼金蒸馏器",
+  "item.windymixin.vial_rack": "玻璃瓶架",
+  "item.windymixin.witch_cauldron": "女巫炼药锅"
 }
