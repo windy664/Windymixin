@@ -31,7 +31,7 @@ public class ConduitBakerMixin {
         synchronized (map) {
             try {
                 return original.call(map, key, mappingFunction);
-            } catch (java.util.concurrent.ConcurrentModificationException e) {
+            } catch (Exception e) {
                 return null;
             }
         }
