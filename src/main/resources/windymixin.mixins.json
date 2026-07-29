@@ -14,7 +14,8 @@
     "Minecraft.StringUtilMixin",
     "TomsStorage.TerminalSyncManagerMixin",
     "IntegratedDynamics.FixChunkUnloadCrashMixin",
-    "Mysticalagriculture.EssenceVesselRendererMixin"
+    "Mysticalagriculture.EssenceVesselRendererMixin",
+    "EnderIO.ConduitBakerMixin"
   ],
   "client": [
     "Iris.TextDisplayRendererMixin",
