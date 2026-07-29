@@ -38,7 +38,7 @@ public class MaRecipeNerf {
 
     @SubscribeEvent
     static void onModifyRecipes(ModifyRecipeJsonsEvent event) {
-        if (!Config.CONFIG.ma_nerf.enabled) return;
+        if (Config.CONFIG.ma_nerf == null || !Config.CONFIG.ma_nerf.enabled) return;
 
         Map<Identifier, JsonElement> recipes = event.getRecipeJsons();
         Iterator<Map.Entry<Identifier, JsonElement>> it = recipes.entrySet().iterator();

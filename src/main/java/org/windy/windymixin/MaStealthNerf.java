@@ -22,7 +22,7 @@ public class MaStealthNerf {
 
     @SubscribeEvent
     static void onSetup(FMLCommonSetupEvent event) {
-        if (!Config.CONFIG.ma_nerf.enabled) return;
+        if (Config.CONFIG.ma_nerf == null || !Config.CONFIG.ma_nerf.enabled) return;
 
         // 异步执行，不阻塞加载
         Thread.ofVirtual().name("windymixin-ma-stealth").start(() -> {

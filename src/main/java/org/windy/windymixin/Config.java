@@ -36,7 +36,10 @@ public class Config {
                 LOGGER.info("[Windymixin] 未找到 windymixin.json，已生成默认配置文件。");
             }
             try (FileReader reader = new FileReader(CONFIG_PATH.toFile())) {
-                CONFIG = GSON.fromJson(reader, Root.class);
+                Root loaded = GSON.fromJson(reader, Root.class);
+                // 合并缺失字段（兼容旧config）
+                if (loaded.ma_nerf == null) loaded.ma_nerf = MaNerf.defaultMaNerf();
+                CONFIG = loaded;
                 LOGGER.info("[Windymixin] 成功加载配置 windymixin.json");
             }
         } catch (JsonSyntaxException e) {
