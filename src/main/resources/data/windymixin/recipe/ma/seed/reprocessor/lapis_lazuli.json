@@ -1,0 +1,14 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:lapis_lazuli"
+    }
+  ],
+  "type": "mysticalagriculture:reprocessor",
+  "input": "mysticalagriculture:lapis_lazuli_seeds",
+  "result": {
+    "count": 1,
+    "id": "mysticalagriculture:lapis_lazuli_essence"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "crafting_shaped",
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:nature"
+    },
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:nether"
+    }
+  ],
+  "pattern": [
+    "   ",
+    "EFE",
+    "   "
+  ],
+  "key": {
+    "E": "mysticalagriculture:nature_essence",
+    "F": "mysticalagriculture:nether_essence"
+  },
+  "result": {
+    "id": "minecraft:crimson_fungus",
+    "count": 4
+  }
+}

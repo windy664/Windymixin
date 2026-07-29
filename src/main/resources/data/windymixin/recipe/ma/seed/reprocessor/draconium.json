@@ -1,0 +1,14 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:draconium"
+    }
+  ],
+  "type": "mysticalagriculture:reprocessor",
+  "input": "mysticalagriculture:draconium_seeds",
+  "result": {
+    "count": 1,
+    "id": "mysticalagriculture:draconium_essence"
+  }
+}

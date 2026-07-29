@@ -1,0 +1,14 @@
+{
+  "type": "mysticalagriculture:enchanter",
+  "ingredients": [
+    {
+      "ingredient": "minecraft:diamond",
+      "count": 4
+    },
+    {
+      "ingredient": "mysticalagriculture:experience_essence",
+      "count": 64
+    }
+  ],
+  "enchantment": "minecraft:sweeping_edge"
+}

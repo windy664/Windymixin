@@ -1,0 +1,14 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:wither_skeleton"
+    }
+  ],
+  "type": "mysticalagriculture:reprocessor",
+  "input": "mysticalagriculture:wither_skeleton_seeds",
+  "result": {
+    "count": 1,
+    "id": "mysticalagriculture:wither_skeleton_essence"
+  }
+}

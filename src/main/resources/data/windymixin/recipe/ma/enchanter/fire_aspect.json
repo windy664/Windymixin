@@ -1,0 +1,14 @@
+{
+  "type": "mysticalagriculture:enchanter",
+  "ingredients": [
+    {
+      "ingredient": "minecraft:blaze_rod",
+      "count": 8
+    },
+    {
+      "ingredient": "mysticalagriculture:experience_essence",
+      "count": 64
+    }
+  ],
+  "enchantment": "minecraft:fire_aspect"
+}

@@ -1,0 +1,14 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:graphite"
+    }
+  ],
+  "type": "mysticalagriculture:reprocessor",
+  "input": "mysticalagriculture:graphite_seeds",
+  "result": {
+    "count": 1,
+    "id": "mysticalagriculture:graphite_essence"
+  }
+}

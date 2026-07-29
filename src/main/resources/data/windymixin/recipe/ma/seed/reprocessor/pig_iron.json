@@ -1,0 +1,14 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:pig_iron"
+    }
+  ],
+  "type": "mysticalagriculture:reprocessor",
+  "input": "mysticalagriculture:pig_iron_seeds",
+  "result": {
+    "count": 1,
+    "id": "mysticalagriculture:pig_iron_essence"
+  }
+}

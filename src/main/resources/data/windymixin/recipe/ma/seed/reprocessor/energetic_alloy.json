@@ -1,0 +1,14 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:energetic_alloy"
+    }
+  ],
+  "type": "mysticalagriculture:reprocessor",
+  "input": "mysticalagriculture:energetic_alloy_seeds",
+  "result": {
+    "count": 1,
+    "id": "mysticalagriculture:energetic_alloy_essence"
+  }
+}

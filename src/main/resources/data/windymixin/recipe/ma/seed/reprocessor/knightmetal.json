@@ -1,0 +1,14 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:knightmetal"
+    }
+  ],
+  "type": "mysticalagriculture:reprocessor",
+  "input": "mysticalagriculture:knightmetal_seeds",
+  "result": {
+    "count": 1,
+    "id": "mysticalagriculture:knightmetal_essence"
+  }
+}

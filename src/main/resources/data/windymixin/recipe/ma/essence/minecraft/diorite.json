@@ -1,0 +1,26 @@
+{
+  "type": "crafting_shaped",
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:stone"
+    },
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:nether_quartz"
+    }
+  ],
+  "pattern": [
+    " Q ",
+    "EEE",
+    " E "
+  ],
+  "key": {
+    "E": "mysticalagriculture:stone_essence",
+    "Q": "mysticalagriculture:nether_quartz_essence"
+  },
+  "result": {
+    "id": "minecraft:diorite",
+    "count": 16
+  }
+}

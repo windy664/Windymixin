@@ -1,0 +1,14 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:enderman"
+    }
+  ],
+  "type": "mysticalagriculture:reprocessor",
+  "input": "mysticalagriculture:enderman_seeds",
+  "result": {
+    "count": 1,
+    "id": "mysticalagriculture:enderman_essence"
+  }
+}

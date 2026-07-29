@@ -1,0 +1,16 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "EIE",
+    "IUI",
+    "EIE"
+  ],
+  "key": {
+    "E": "mysticalagriculture:prudentium_essence",
+    "I": "mysticalagriculture:prudentium_ingot",
+    "U": "mysticalagriculture:inferium_upgrade"
+  },
+  "result": {
+    "id": "mysticalagriculture:prudentium_upgrade"
+  }
+}

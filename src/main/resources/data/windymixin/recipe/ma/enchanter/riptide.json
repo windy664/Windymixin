@@ -1,0 +1,14 @@
+{
+  "type": "mysticalagriculture:enchanter",
+  "ingredients": [
+    {
+      "ingredient": "minecraft:ender_pearl",
+      "count": 4
+    },
+    {
+      "ingredient": "mysticalagriculture:experience_essence",
+      "count": 64
+    }
+  ],
+  "enchantment": "minecraft:riptide"
+}

@@ -1,0 +1,14 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:grains_of_infinity"
+    }
+  ],
+  "type": "mysticalagriculture:reprocessor",
+  "input": "mysticalagriculture:grains_of_infinity_seeds",
+  "result": {
+    "count": 1,
+    "id": "mysticalagriculture:grains_of_infinity_essence"
+  }
+}

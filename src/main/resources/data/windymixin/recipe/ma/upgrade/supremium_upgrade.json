@@ -1,0 +1,16 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "EIE",
+    "IUI",
+    "EIE"
+  ],
+  "key": {
+    "E": "mysticalagriculture:supremium_essence",
+    "I": "mysticalagriculture:supremium_ingot",
+    "U": "mysticalagriculture:imperium_upgrade"
+  },
+  "result": {
+    "id": "mysticalagriculture:supremium_upgrade"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "crafting_shaped",
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:ghast"
+    },
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:nether"
+    }
+  ],
+  "pattern": [
+    "RC ",
+    "SD ",
+    "   "
+  ],
+  "key": {
+    "R": "mysticalagriculture:blank_record",
+    "C": "mysticalagriculture:ghast_essence",
+    "S": "mysticalagriculture:nether_essence",
+    "D": "#c:dyes/white"
+  },
+  "result": {
+    "id": "minecraft:music_disc_tears"
+  }
+}

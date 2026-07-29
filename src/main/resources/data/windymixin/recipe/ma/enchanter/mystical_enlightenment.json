@@ -1,0 +1,14 @@
+{
+  "type": "mysticalagriculture:enchanter",
+  "ingredients": [
+    {
+      "ingredient": "mysticalagriculture:supremium_essence",
+      "count": 3
+    },
+    {
+      "ingredient": "mysticalagriculture:experience_essence",
+      "count": 64
+    }
+  ],
+  "enchantment": "mysticalagriculture:mystical_enlightenment"
+}

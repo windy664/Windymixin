@@ -1,0 +1,31 @@
+{
+  "type": "mysticalagriculture:awakening",
+  "essences": [
+    {
+      "ingredient": "mysticalagriculture:air_essence",
+      "count": 10
+    },
+    {
+      "ingredient": "mysticalagriculture:earth_essence",
+      "count": 10
+    },
+    {
+      "ingredient": "mysticalagriculture:water_essence",
+      "count": 10
+    },
+    {
+      "ingredient": "mysticalagriculture:fire_essence",
+      "count": 10
+    }
+  ],
+  "input": "mysticalagriculture:supremium_block",
+  "ingredients": [
+    "mysticalagriculture:cognizant_dust",
+    "mysticalagriculture:cognizant_dust",
+    "mysticalagriculture:cognizant_dust",
+    "mysticalagriculture:cognizant_dust"
+  ],
+  "result": {
+    "id": "mysticalagriculture:awakened_supremium_block"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "crafting_shaped",
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:stone"
+    },
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:water"
+    }
+  ],
+  "pattern": [
+    " E ",
+    "EAE",
+    " E "
+  ],
+  "key": {
+    "E": "mysticalagriculture:stone_essence",
+    "A": "mysticalagriculture:water_essence"
+  },
+  "result": {
+    "id": "minecraft:dripstone_block",
+    "count": 12
+  }
+}

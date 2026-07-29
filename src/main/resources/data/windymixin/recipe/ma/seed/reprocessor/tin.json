@@ -1,0 +1,14 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:tin"
+    }
+  ],
+  "type": "mysticalagriculture:reprocessor",
+  "input": "mysticalagriculture:tin_seeds",
+  "result": {
+    "count": 1,
+    "id": "mysticalagriculture:tin_essence"
+  }
+}

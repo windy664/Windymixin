@@ -1,0 +1,14 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:iridium"
+    }
+  ],
+  "type": "mysticalagriculture:reprocessor",
+  "input": "mysticalagriculture:iridium_seeds",
+  "result": {
+    "count": 1,
+    "id": "mysticalagriculture:iridium_essence"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:rabbit"
+    }
+  ],
+  "type": "mysticalagriculture:reprocessor",
+  "input": "mysticalagriculture:rabbit_seeds",
+  "result": {
+    "count": 1,
+    "id": "mysticalagriculture:rabbit_essence"
+  }
+}

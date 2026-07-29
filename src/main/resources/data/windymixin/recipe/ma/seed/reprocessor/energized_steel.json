@@ -1,0 +1,14 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:energized_steel"
+    }
+  ],
+  "type": "mysticalagriculture:reprocessor",
+  "input": "mysticalagriculture:energized_steel_seeds",
+  "result": {
+    "count": 1,
+    "id": "mysticalagriculture:energized_steel_essence"
+  }
+}

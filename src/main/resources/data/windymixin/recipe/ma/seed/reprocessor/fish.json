@@ -1,0 +1,14 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:fish"
+    }
+  ],
+  "type": "mysticalagriculture:reprocessor",
+  "input": "mysticalagriculture:fish_seeds",
+  "result": {
+    "count": 1,
+    "id": "mysticalagriculture:fish_essence"
+  }
+}

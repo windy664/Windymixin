@@ -1,0 +1,16 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "EIE",
+    "IUI",
+    "EIE"
+  ],
+  "key": {
+    "E": "mysticalagriculture:inferium_essence",
+    "I": "mysticalagriculture:inferium_ingot",
+    "U": "mysticalagriculture:upgrade_base"
+  },
+  "result": {
+    "id": "mysticalagriculture:inferium_upgrade"
+  }
+}

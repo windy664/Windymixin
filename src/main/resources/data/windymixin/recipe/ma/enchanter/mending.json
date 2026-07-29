@@ -1,0 +1,14 @@
+{
+  "type": "mysticalagriculture:enchanter",
+  "ingredients": [
+    {
+      "ingredient": "minecraft:wither_skeleton_skull",
+      "count": 3
+    },
+    {
+      "ingredient": "mysticalagriculture:experience_essence",
+      "count": 256
+    }
+  ],
+  "enchantment": "minecraft:mending"
+}

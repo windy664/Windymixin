@@ -1,0 +1,14 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:iron"
+    }
+  ],
+  "type": "mysticalagriculture:reprocessor",
+  "input": "mysticalagriculture:iron_seeds",
+  "result": {
+    "count": 1,
+    "id": "mysticalagriculture:iron_essence"
+  }
+}

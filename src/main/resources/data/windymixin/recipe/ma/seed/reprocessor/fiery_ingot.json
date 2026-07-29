@@ -1,0 +1,14 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:fiery_ingot"
+    }
+  ],
+  "type": "mysticalagriculture:reprocessor",
+  "input": "mysticalagriculture:fiery_ingot_seeds",
+  "result": {
+    "count": 1,
+    "id": "mysticalagriculture:fiery_ingot_essence"
+  }
+}

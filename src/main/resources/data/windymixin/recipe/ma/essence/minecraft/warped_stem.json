@@ -1,0 +1,26 @@
+{
+  "type": "crafting_shaped",
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:wood"
+    },
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:nether"
+    }
+  ],
+  "pattern": [
+    " E ",
+    " N ",
+    " E "
+  ],
+  "key": {
+    "E": "mysticalagriculture:wood_essence",
+    "N": "mysticalagriculture:nether_essence"
+  },
+  "result": {
+    "id": "minecraft:warped_stem",
+    "count": 12
+  }
+}

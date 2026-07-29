@@ -1,0 +1,27 @@
+{
+  "type": "crafting_shaped",
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:creeper"
+    },
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:skeleton"
+    }
+  ],
+  "pattern": [
+    "RC ",
+    "SD ",
+    "   "
+  ],
+  "key": {
+    "R": "mysticalagriculture:blank_record",
+    "C": "mysticalagriculture:creeper_essence",
+    "S": "mysticalagriculture:skeleton_essence",
+    "D": "#c:dyes/black"
+  },
+  "result": {
+    "id": "minecraft:music_disc_stal"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:glowstone"
+    }
+  ],
+  "type": "mysticalagriculture:reprocessor",
+  "input": "mysticalagriculture:glowstone_seeds",
+  "result": {
+    "count": 1,
+    "id": "mysticalagriculture:glowstone_essence"
+  }
+}
