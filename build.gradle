@@ -119,9 +119,7 @@ dependencies {
     compileOnly fileTree("./libs")
 
     // MixinExtras（EnderIO @WrapOperation需要）
-    implementation(jarJar("io.github.llamalad7:mixinextras-neoforge:0.5.4")) {
-        jarJar.ranged(it, "[0.5.4,)")
-    }
+    implementation "io.github.llamalad7:mixinextras-neoforge:0.5.4"
 
     // Paper API：提供 org.bukkit.inventory.Recipe / org.bukkit.NamespacedKey
     compileOnly "io.papermc.paper:paper-api:26.2.build.48-alpha"
