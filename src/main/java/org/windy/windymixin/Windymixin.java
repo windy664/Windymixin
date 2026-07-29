@@ -39,6 +39,7 @@ public class Windymixin {
         IEventBus modBus2 = ModLoadingContext.get().getActiveContainer().getEventBus();
         if (modBus2 != null) {
             GunPartItems.register(modBus2);
+            ThaumonItems.register(modBus2);
         }
         // JEG 配方拦截已移至 JegRecipeFilter（ModifyRecipeJsonsEvent 事件拦截），不再改写 jar
         Config.load(); // 加载 windymixin.json
