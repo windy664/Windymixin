@@ -1,0 +1,9 @@
+{
+  "type": "alaindustrial:compressing",
+  "ingredient": "mysticalagriculture:tin_essence",
+  "result": {
+    "id": "alaindustrial:tin_plate",
+    "count": 1
+  },
+  "energy": 600
+}

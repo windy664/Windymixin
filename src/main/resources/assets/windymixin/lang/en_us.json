@@ -1,5 +1,20 @@
 {
-  "itemGroup.windymixin": "Example Mod Tab",
+  "itemGroup.windymixin": "Windymixin",
   "block.windymixin.example_block": "Example Block",
-  "item.windymixin.example_item": "Example Item"
+  "item.windymixin.example_item": "Example Item",
+  "itemGroup.windymixin.gun_parts": "Gun Parts",
+  "item.windymixin.steel_pipe": "Steel Pipe",
+  "item.windymixin.screws": "Screws",
+  "item.windymixin.hexagonal_nails": "Hexagonal Nails",
+  "item.windymixin.pig_iron": "Pig Iron",
+  "item.windymixin.iron_castings": "Iron Castings",
+  "item.windymixin.polymer_layer": "Polymer Layer",
+  "item.windymixin.plastic": "Plastic",
+  "item.windymixin.polyester_cloth": "Polyester Cloth",
+  "item.windymixin.smokeless_powder": "Smokeless Powder",
+  "item.windymixin.hemp_seeds": "Hemp Seeds",
+  "item.windymixin.tree_oil": "Tree Oil",
+  "item.windymixin.wooden_heart": "Wooden Heart",
+  "item.windymixin.twig_buds": "Twig Buds",
+  "item.windymixin.paw": "Paw"
 }

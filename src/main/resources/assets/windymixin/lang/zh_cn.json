@@ -1,0 +1,20 @@
+{
+  "itemGroup.windymixin": "风吟魔改",
+  "block.windymixin.example_block": "示例方块",
+  "item.windymixin.example_item": "示例物品",
+  "itemGroup.windymixin.gun_parts": "枪械零件",
+  "item.windymixin.steel_pipe": "钢管",
+  "item.windymixin.screws": "螺丝",
+  "item.windymixin.hexagonal_nails": "六角钉",
+  "item.windymixin.pig_iron": "生铁",
+  "item.windymixin.iron_castings": "铸铁件",
+  "item.windymixin.polymer_layer": "聚合物层",
+  "item.windymixin.plastic": "塑料",
+  "item.windymixin.polyester_cloth": "涤纶布",
+  "item.windymixin.smokeless_powder": "无烟火药",
+  "item.windymixin.hemp_seeds": "麻种子",
+  "item.windymixin.tree_oil": "树油",
+  "item.windymixin.wooden_heart": "木心",
+  "item.windymixin.twig_buds": "嫩枝芽",
+  "item.windymixin.paw": "爪"
+}

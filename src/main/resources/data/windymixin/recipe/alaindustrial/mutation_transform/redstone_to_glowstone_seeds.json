@@ -1,0 +1,9 @@
+{
+  "type": "alaindustrial:mutation_transform",
+  "ingredient": "mysticalagriculture:redstone_seeds",
+  "result": {
+    "id": "mysticalagriculture:glowstone_seeds",
+    "count": 1
+  },
+  "energy": 6000
+}

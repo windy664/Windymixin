@@ -1,0 +1,9 @@
+{
+  "type": "alaindustrial:maceration",
+  "ingredient": "#c:dusts/coal",
+  "result": {
+    "id": "windymixin:plastic",
+    "count": 2
+  },
+  "energy": 250
+}

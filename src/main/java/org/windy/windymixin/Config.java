@@ -79,11 +79,43 @@ public class Config {
     /** 根对象 */
     public static class Root {
         public FlatWorld flat_world = new FlatWorld();
+        public MaNerf ma_nerf = new MaNerf();
 
         public static Root defaultConfig() {
             Root root = new Root();
             root.flat_world = FlatWorld.defaultFlat();
+            root.ma_nerf = MaNerf.defaultMaNerf();
             return root;
+        }
+    }
+
+    /** 神秘农业削弱配置 */
+    public static class MaNerf {
+        /** 是否启用MA配方削弱 */
+        public boolean enabled = true;
+        /** 精华→锭的产出倍率（1.0=原版，0.17=8精华1锭） */
+        public double output_multiplier = 0.17;
+        /** 注魔水晶使用次数（原版1000） */
+        public int infusion_crystal_uses = 100;
+        /** 大师注魔水晶使用次数（原版-1=无限） */
+        public int master_infusion_crystal_uses = 500;
+        /** 升级链精华需求倍率（1.0=原版，2.0=翻倍） */
+        public double upgrade_cost_multiplier = 2.0;
+        /** 觉醒配方精华需求倍率（1.0=原版，3.0=三倍） */
+        public double awakening_cost_multiplier = 3.0;
+        /** 生长加速器tick间隔倍率（1.0=原版，6.0=60秒一次） */
+        public double accelerator_slowdown = 6.0;
+
+        public static MaNerf defaultMaNerf() {
+            MaNerf m = new MaNerf();
+            m.enabled = true;
+            m.output_multiplier = 0.17;
+            m.infusion_crystal_uses = 100;
+            m.master_infusion_crystal_uses = 500;
+            m.upgrade_cost_multiplier = 2.0;
+            m.awakening_cost_multiplier = 3.0;
+            m.accelerator_slowdown = 6.0;
+            return m;
         }
     }
 

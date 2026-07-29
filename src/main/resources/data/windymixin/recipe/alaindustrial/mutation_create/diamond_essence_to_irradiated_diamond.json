@@ -1,0 +1,9 @@
+{
+  "type": "alaindustrial:mutation_create",
+  "ingredient": "mysticalagriculture:diamond_essence",
+  "result": {
+    "id": "alaindustrial:irradiated_diamond",
+    "count": 1
+  },
+  "energy": 20000
+}

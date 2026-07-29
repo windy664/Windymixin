@@ -1,0 +1,8 @@
+{
+  "type": "energizedpower:energizer",
+  "energy": 16384,
+  "ingredient": "#c:wires/copper",
+  "result": {
+    "id": "energizedpower:energized_copper_wire"
+  }
+}

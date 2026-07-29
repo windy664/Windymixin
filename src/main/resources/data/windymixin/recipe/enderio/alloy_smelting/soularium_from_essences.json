@@ -1,0 +1,19 @@
+{
+  "type": "enderio:alloy_smelting",
+  "inputs": [
+    {
+      "count": 4,
+      "ingredient": "mysticalagriculture:gold_essence"
+    },
+    {
+      "count": 4,
+      "ingredient": "mysticalagriculture:soulium_essence"
+    }
+  ],
+  "result": {
+    "id": "enderio:soularium_ingot",
+    "count": 3
+  },
+  "energy": 4000,
+  "experience": 0.1
+}

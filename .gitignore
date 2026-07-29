@@ -11,3 +11,15 @@
 # IDE
 /.idea/
 *.iml
+
+# 敏感文件（避免DMCA风险）
+*.jar
+*.zip
+chacore-stub.jar
+src/main/resources/chacore-stub.jar
+枪械魔改/
+云然知栖logo设计需求*.png
+com/
+resourcepack/
+Youer-26.2-server.zip
+generate_font.ps1

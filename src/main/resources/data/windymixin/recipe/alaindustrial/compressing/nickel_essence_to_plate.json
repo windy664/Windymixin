@@ -1,0 +1,9 @@
+{
+  "type": "alaindustrial:compressing",
+  "ingredient": "mysticalagriculture:nickel_essence",
+  "result": {
+    "id": "alaindustrial:nickel_plate",
+    "count": 1
+  },
+  "energy": 600
+}

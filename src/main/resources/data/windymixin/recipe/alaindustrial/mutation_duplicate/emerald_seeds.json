@@ -1,0 +1,10 @@
+{
+  "type": "alaindustrial:mutation_duplicate",
+  "ingredient": "mysticalagriculture:emerald_seeds",
+  "result": {
+    "id": "mysticalagriculture:emerald_seeds",
+    "count": 2
+  },
+  "energy": 20000,
+  "chance": 0.08
+}

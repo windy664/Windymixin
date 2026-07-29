@@ -1,0 +1,17 @@
+{
+  "type": "energizedpower:alloy_furnace",
+  "ingredients": [
+    {
+      "count": 3,
+      "ingredient": "mysticalagriculture:nickel_essence"
+    },
+    {
+      "count": 3,
+      "ingredient": "mysticalagriculture:iron_essence"
+    }
+  ],
+  "result": {
+    "id": "c:ingots/invar"
+  },
+  "ticks": 500
+}

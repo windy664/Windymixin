@@ -1,0 +1,9 @@
+{
+  "type": "alaindustrial:maceration",
+  "ingredient": "mysticalagriculture:copper_essence",
+  "result": {
+    "id": "alaindustrial:copper_dust",
+    "count": 1
+  },
+  "energy": 500
+}

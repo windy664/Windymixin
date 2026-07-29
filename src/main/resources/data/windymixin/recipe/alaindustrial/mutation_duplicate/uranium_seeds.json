@@ -1,0 +1,10 @@
+{
+  "type": "alaindustrial:mutation_duplicate",
+  "ingredient": "mysticalagriculture:uranium_seeds",
+  "result": {
+    "id": "mysticalagriculture:uranium_seeds",
+    "count": 2
+  },
+  "energy": 15000,
+  "chance": 0.1
+}

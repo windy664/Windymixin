@@ -1,0 +1,9 @@
+{
+  "type": "alaindustrial:mutation_transform",
+  "ingredient": "mysticalagriculture:tin_seeds",
+  "result": {
+    "id": "mysticalagriculture:nickel_seeds",
+    "count": 1
+  },
+  "energy": 6000
+}

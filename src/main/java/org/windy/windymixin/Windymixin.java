@@ -35,36 +35,47 @@ public class Windymixin {
 
     public Windymixin() {
         deployChaCoreStub();
+        // 枪械零件物品注册
+        IEventBus modBus2 = ModLoadingContext.get().getActiveContainer().getEventBus();
+        if (modBus2 != null) {
+            GunPartItems.register(modBus2);
+        }
+        // JEG 配方拦截已移至 JegRecipeFilter（ModifyRecipeJsonsEvent 事件拦截），不再改写 jar
         Config.load(); // 加载 windymixin.json
         LOGGER.info("[Windymixin] 模组初始化完成，JSON 配置系统已启动。");
 
-        // 注册内置数据包覆盖其他mod配方
+        // 注册内置客户端资源包（字体覆盖）
         IEventBus modBus = ModLoadingContext.get().getActiveContainer().getEventBus();
         if (modBus != null) {
             modBus.addListener(AddPackFindersEvent.class, event -> {
-                if (event.getPackType() == PackType.SERVER_DATA) {
-                    Path modRoot = ModList.get().getModFileById(MODID).getFile().getFilePath();
-                    Path overridesPath = modRoot.resolve("windymixin_overrides");
+                if (event.getPackType() == PackType.CLIENT_RESOURCES) {
+                    Path fontPath = ModList.get().getModFileById(MODID).getFile().getFilePath().resolve("windymixin_font");
+                    LOGGER.info("[Windymixin] 字体资源包路径: {}", fontPath);
                     event.addRepositorySource(consumer -> {
                         PackLocationInfo loc = new PackLocationInfo(
-                                MODID + "_overrides",
-                                Component.literal("Windymixin 配方魔改"),
+                                MODID + "_font",
+                                Component.literal("Windymixin 字体"),
                                 PackSource.BUILT_IN,
                                 Optional.empty()
                         );
-                        PackSelectionConfig sel = new PackSelectionConfig(false, Pack.Position.TOP, false);
+                        PackSelectionConfig sel = new PackSelectionConfig(true, Pack.Position.TOP, true);
                         Pack.ResourcesSupplier supplier = new Pack.ResourcesSupplier() {
                             @Override
                             public net.minecraft.server.packs.PackResources openPrimary(PackLocationInfo info) {
-                                return new PathPackResources(info, overridesPath);
+                                return new PathPackResources(info, fontPath);
                             }
                             @Override
                             public net.minecraft.server.packs.PackResources openFull(PackLocationInfo info, Pack.Metadata metadata) {
-                                return new PathPackResources(info, overridesPath);
+                                return new PathPackResources(info, fontPath);
                             }
                         };
-                        Pack pack = Pack.readMetaAndCreate(loc, supplier, PackType.SERVER_DATA, sel);
-                        if (pack != null) consumer.accept(pack);
+                        Pack pack = Pack.readMetaAndCreate(loc, supplier, PackType.CLIENT_RESOURCES, sel);
+                        if (pack != null) {
+                            LOGGER.info("[Windymixin] ✅ 字体资源包注册成功: {}", pack.getId());
+                            consumer.accept(pack);
+                        } else {
+                            LOGGER.error("[Windymixin] ❌ 字体资源包创建失败");
+                        }
                     });
                 }
             });

@@ -1,0 +1,9 @@
+{
+  "type": "alaindustrial:maceration",
+  "ingredient": "minecraft:gunpowder",
+  "result": {
+    "id": "windymixin:smokeless_powder",
+    "count": 2
+  },
+  "energy": 300
+}

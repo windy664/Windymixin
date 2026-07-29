@@ -1,0 +1,9 @@
+{
+  "type": "alaindustrial:extracting",
+  "ingredient": "mysticalagriculture:nickel_essence",
+  "result": {
+    "id": "energizedpower:charcoal_dust",
+    "count": 1
+  },
+  "energy": 600
+}

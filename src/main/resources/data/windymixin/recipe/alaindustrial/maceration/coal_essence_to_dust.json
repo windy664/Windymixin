@@ -1,0 +1,9 @@
+{
+  "type": "alaindustrial:maceration",
+  "ingredient": "mysticalagriculture:coal_essence",
+  "result": {
+    "id": "alaindustrial:coal_dust",
+    "count": 1
+  },
+  "energy": 400
+}

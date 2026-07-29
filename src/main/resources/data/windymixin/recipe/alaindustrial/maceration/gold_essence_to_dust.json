@@ -1,0 +1,9 @@
+{
+  "type": "alaindustrial:maceration",
+  "ingredient": "mysticalagriculture:gold_essence",
+  "result": {
+    "id": "alaindustrial:gold_dust",
+    "count": 1
+  },
+  "energy": 500
+}

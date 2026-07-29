@@ -1,0 +1,9 @@
+{
+  "type": "alaindustrial:maceration",
+  "ingredient": "#c:plates/steel",
+  "result": {
+    "id": "windymixin:steel_pipe",
+    "count": 2
+  },
+  "energy": 300
+}

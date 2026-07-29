@@ -1,0 +1,19 @@
+{
+  "type": "enderio:alloy_smelting",
+  "inputs": [
+    {
+      "count": 4,
+      "ingredient": "mysticalagriculture:iron_essence"
+    },
+    {
+      "count": 4,
+      "ingredient": "mysticalagriculture:coal_essence"
+    }
+  ],
+  "result": {
+    "id": "enderio:dark_steel_ingot",
+    "count": 3
+  },
+  "energy": 4000,
+  "experience": 0.1
+}

@@ -1,0 +1,9 @@
+{
+  "type": "alaindustrial:extracting",
+  "ingredient": "mysticalagriculture:uranium_essence",
+  "result": {
+    "id": "alaindustrial:resonant_shard",
+    "count": 1
+  },
+  "energy": 1200
+}

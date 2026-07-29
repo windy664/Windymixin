@@ -1,0 +1,11 @@
+{
+  "type": "alaindustrial:polymerizing",
+  "fluid": "#c:oil",
+  "amount": 2000,
+  "ingredient": "mysticalagriculture:rubber_essence",
+  "result": {
+    "id": "alaindustrial:tempered_iron",
+    "count": 1
+  },
+  "energy": 1000
+}

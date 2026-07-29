@@ -1,0 +1,9 @@
+{
+  "type": "alaindustrial:maceration",
+  "ingredient": "mysticalagriculture:nickel_essence",
+  "result": {
+    "id": "alaindustrial:nickel_dust",
+    "count": 1
+  },
+  "energy": 500
+}

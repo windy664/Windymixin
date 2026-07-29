@@ -1,0 +1,9 @@
+{
+  "type": "alaindustrial:mutation_transform",
+  "ingredient": "mysticalagriculture:coal_seeds",
+  "result": {
+    "id": "mysticalagriculture:redstone_seeds",
+    "count": 1
+  },
+  "energy": 5000
+}

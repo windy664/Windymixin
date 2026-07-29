@@ -1,0 +1,10 @@
+{
+  "type": "alaindustrial:mutation_duplicate",
+  "ingredient": "mysticalagriculture:silver_seeds",
+  "result": {
+    "id": "mysticalagriculture:silver_seeds",
+    "count": 2
+  },
+  "energy": 10000,
+  "chance": 0.15
+}

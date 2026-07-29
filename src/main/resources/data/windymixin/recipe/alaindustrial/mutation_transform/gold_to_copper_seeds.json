@@ -1,0 +1,9 @@
+{
+  "type": "alaindustrial:mutation_transform",
+  "ingredient": "mysticalagriculture:gold_seeds",
+  "result": {
+    "id": "mysticalagriculture:copper_seeds",
+    "count": 1
+  },
+  "energy": 4000
+}

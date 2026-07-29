@@ -1,0 +1,9 @@
+{
+  "type": "alaindustrial:mutation_transform",
+  "ingredient": "mysticalagriculture:copper_seeds",
+  "result": {
+    "id": "mysticalagriculture:tin_seeds",
+    "count": 1
+  },
+  "energy": 5000
+}

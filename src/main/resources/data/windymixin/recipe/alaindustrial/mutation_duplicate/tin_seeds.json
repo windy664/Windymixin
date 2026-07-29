@@ -1,0 +1,10 @@
+{
+  "type": "alaindustrial:mutation_duplicate",
+  "ingredient": "mysticalagriculture:tin_seeds",
+  "result": {
+    "id": "mysticalagriculture:tin_seeds",
+    "count": 2
+  },
+  "energy": 10000,
+  "chance": 0.15
+}

@@ -1,0 +1,17 @@
+{
+  "type": "energizedpower:alloy_furnace",
+  "ingredients": [
+    {
+      "count": 3,
+      "ingredient": "mysticalagriculture:tin_essence"
+    },
+    {
+      "count": 3,
+      "ingredient": "mysticalagriculture:copper_essence"
+    }
+  ],
+  "result": {
+    "id": "c:ingots/bronze"
+  },
+  "ticks": 500
+}

@@ -1,0 +1,17 @@
+{
+  "type": "energizedpower:alloy_furnace",
+  "ingredients": [
+    {
+      "count": 3,
+      "ingredient": "mysticalagriculture:gold_essence"
+    },
+    {
+      "count": 3,
+      "ingredient": "mysticalagriculture:silver_essence"
+    }
+  ],
+  "result": {
+    "id": "c:ingots/electrum"
+  },
+  "ticks": 500
+}

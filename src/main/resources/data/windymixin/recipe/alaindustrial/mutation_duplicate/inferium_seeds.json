@@ -1,0 +1,10 @@
+{
+  "type": "alaindustrial:mutation_duplicate",
+  "ingredient": "mysticalagriculture:inferium_seeds",
+  "result": {
+    "id": "mysticalagriculture:inferium_seeds",
+    "count": 2
+  },
+  "energy": 8000,
+  "chance": 0.2
+}

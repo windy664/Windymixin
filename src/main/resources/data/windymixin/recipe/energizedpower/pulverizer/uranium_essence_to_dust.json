@@ -1,0 +1,11 @@
+{
+  "type": "energizedpower:pulverizer",
+  "ingredient": "mysticalagriculture:uranium_essence",
+  "result": {
+    "percentages": [0.5],
+    "percentagesAdvanced": [0.5, 0.25],
+    "result": {
+      "id": "alaindustrial:uranium_dust"
+    }
+  }
+}

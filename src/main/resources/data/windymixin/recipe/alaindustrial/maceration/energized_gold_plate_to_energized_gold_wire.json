@@ -1,0 +1,9 @@
+{
+  "type": "alaindustrial:maceration",
+  "ingredient": "#c:plates/energized_gold",
+  "result": {
+    "id": "energizedpower:energized_gold_wire",
+    "count": 2
+  },
+  "energy": 300
+}

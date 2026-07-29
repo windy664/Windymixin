@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:crushing",
+  "input": {
+    "count": 1,
+    "ingredient": "#c:plates/energized_copper"
+  },
+  "output": {
+    "count": 2,
+    "id": "energizedpower:energized_copper_wire"
+  }
+}

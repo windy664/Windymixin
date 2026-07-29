@@ -1,0 +1,9 @@
+{
+  "type": "alaindustrial:maceration",
+  "ingredient": "#c:plates/copper",
+  "result": {
+    "id": "energizedpower:copper_wire",
+    "count": 2
+  },
+  "energy": 300
+}

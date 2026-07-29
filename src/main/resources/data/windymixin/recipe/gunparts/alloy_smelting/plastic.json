@@ -1,0 +1,19 @@
+{
+  "type": "enderio:alloy_smelting",
+  "energy": 2400,
+  "experience": 0.2,
+  "inputs": [
+    {
+      "count": 2,
+      "ingredient": "minecraft:redstone"
+    },
+    {
+      "count": 1,
+      "ingredient": "#c:dusts/coal"
+    }
+  ],
+  "output": {
+    "id": "windymixin:plastic",
+    "count": 2
+  }
+}

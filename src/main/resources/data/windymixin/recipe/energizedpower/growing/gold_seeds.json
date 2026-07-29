@@ -1,0 +1,22 @@
+{
+  "type": "energizedpower:plant_growth_chamber",
+  "fluid": "minecraft:water",
+  "fluidConsumption": 0.125,
+  "ingredient": "mysticalagriculture:gold_seeds",
+  "results": [
+    {
+      "percentages": [0.5],
+      "result": {
+        "id": "mysticalagriculture:gold_seeds"
+      }
+    },
+    {
+      "percentages": [0.5, 0.15],
+      "result": {
+        "id": "mysticalagriculture:gold_essence"
+      }
+    }
+  ],
+  "soilType": "#energizedpower:crops",
+  "ticks": 8000
+}

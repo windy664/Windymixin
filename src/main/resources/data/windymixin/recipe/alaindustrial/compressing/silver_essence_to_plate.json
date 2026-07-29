@@ -1,0 +1,9 @@
+{
+  "type": "alaindustrial:compressing",
+  "ingredient": "mysticalagriculture:silver_essence",
+  "result": {
+    "id": "alaindustrial:silver_plate",
+    "count": 1
+  },
+  "energy": 600
+}

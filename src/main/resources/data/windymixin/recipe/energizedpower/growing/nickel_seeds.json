@@ -1,0 +1,22 @@
+{
+  "type": "energizedpower:plant_growth_chamber",
+  "fluid": "minecraft:water",
+  "fluidConsumption": 0.125,
+  "ingredient": "mysticalagriculture:nickel_seeds",
+  "results": [
+    {
+      "percentages": [0.5],
+      "result": {
+        "id": "mysticalagriculture:nickel_seeds"
+      }
+    },
+    {
+      "percentages": [0.5, 0.15],
+      "result": {
+        "id": "mysticalagriculture:nickel_essence"
+      }
+    }
+  ],
+  "soilType": "#energizedpower:crops",
+  "ticks": 10000
+}

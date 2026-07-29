@@ -1,0 +1,9 @@
+{
+  "type": "alaindustrial:mutation_transform",
+  "ingredient": "mysticalagriculture:nickel_seeds",
+  "result": {
+    "id": "mysticalagriculture:platinum_seeds",
+    "count": 1
+  },
+  "energy": 8000
+}

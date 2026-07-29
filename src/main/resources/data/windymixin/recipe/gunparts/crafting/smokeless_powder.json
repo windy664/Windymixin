@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GH",
+    "RG"
+  ],
+  "key": {
+    "G": "minecraft:gunpowder",
+    "R": "minecraft:redstone",
+    "H": "windymixin:hemp_seeds"
+  },
+  "result": {
+    "id": "windymixin:smokeless_powder",
+    "count": 2
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "enderio:alloy_smelting",
+  "inputs": [
+    {
+      "count": 4,
+      "ingredient": "mysticalagriculture:tin_essence"
+    },
+    {
+      "count": 4,
+      "ingredient": "mysticalagriculture:copper_essence"
+    }
+  ],
+  "result": {
+    "id": "c:ingots/bronze",
+    "count": 3
+  },
+  "energy": 4000,
+  "experience": 0.1
+}

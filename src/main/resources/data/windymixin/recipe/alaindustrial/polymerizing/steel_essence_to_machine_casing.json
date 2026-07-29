@@ -1,0 +1,11 @@
+{
+  "type": "alaindustrial:polymerizing",
+  "fluid": "#c:oil",
+  "amount": 1500,
+  "ingredient": "mysticalagriculture:steel_essence",
+  "result": {
+    "id": "alaindustrial:machine_casing",
+    "count": 1
+  },
+  "energy": 1200
+}

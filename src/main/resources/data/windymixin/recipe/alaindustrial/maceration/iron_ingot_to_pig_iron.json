@@ -1,0 +1,9 @@
+{
+  "type": "alaindustrial:maceration",
+  "ingredient": "#c:ingots/iron",
+  "result": {
+    "id": "windymixin:pig_iron",
+    "count": 1
+  },
+  "energy": 200
+}

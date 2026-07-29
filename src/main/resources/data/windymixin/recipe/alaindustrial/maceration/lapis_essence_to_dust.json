@@ -1,0 +1,9 @@
+{
+  "type": "alaindustrial:maceration",
+  "ingredient": "mysticalagriculture:lapis_lazuli_essence",
+  "result": {
+    "id": "alaindustrial:lapis_dust",
+    "count": 1
+  },
+  "energy": 400
+}

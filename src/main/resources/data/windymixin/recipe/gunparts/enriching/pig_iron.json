@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "count": 1,
+    "ingredient": "#c:ingots/iron"
+  },
+  "output": {
+    "id": "windymixin:pig_iron",
+    "count": 1
+  }
+}

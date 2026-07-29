@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " S ",
+    "GWG",
+    " G "
+  ],
+  "key": {
+    "S": "#c:nuggets/steel",
+    "G": "minecraft:gunpowder",
+    "W": "#minecraft:wool"
+  },
+  "result": {
+    "id": "jeg:smoke_grenade",
+    "count": 2
+  }
+}

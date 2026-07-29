@@ -1,0 +1,9 @@
+{
+  "type": "alaindustrial:mutation_transform",
+  "ingredient": "mysticalagriculture:uranium_seeds",
+  "result": {
+    "id": "mysticalagriculture:netherite_seeds",
+    "count": 1
+  },
+  "energy": 12000
+}

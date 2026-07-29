@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " LL",
+    "ILL",
+    "I  "
+  ],
+  "key": {
+    "I": "#c:ingots/steel",
+    "L": "minecraft:leather"
+  },
+  "result": {
+    "id": "jeg:makeshift_stock",
+    "count": 1
+  }
+}

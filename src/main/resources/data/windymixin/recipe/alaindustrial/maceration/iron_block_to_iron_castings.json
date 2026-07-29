@@ -1,0 +1,9 @@
+{
+  "type": "alaindustrial:maceration",
+  "ingredient": "#c:storage_blocks/iron",
+  "result": {
+    "id": "windymixin:iron_castings",
+    "count": 3
+  },
+  "energy": 400
+}

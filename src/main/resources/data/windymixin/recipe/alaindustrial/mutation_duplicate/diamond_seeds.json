@@ -1,0 +1,10 @@
+{
+  "type": "alaindustrial:mutation_duplicate",
+  "ingredient": "mysticalagriculture:diamond_seeds",
+  "result": {
+    "id": "mysticalagriculture:diamond_seeds",
+    "count": 2
+  },
+  "energy": 20000,
+  "chance": 0.08
+}

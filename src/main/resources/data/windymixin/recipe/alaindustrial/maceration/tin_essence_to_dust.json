@@ -1,0 +1,9 @@
+{
+  "type": "alaindustrial:maceration",
+  "ingredient": "mysticalagriculture:tin_essence",
+  "result": {
+    "id": "alaindustrial:tin_dust",
+    "count": 1
+  },
+  "energy": 500
+}

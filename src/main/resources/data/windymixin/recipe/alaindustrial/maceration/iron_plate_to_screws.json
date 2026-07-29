@@ -1,0 +1,9 @@
+{
+  "type": "alaindustrial:maceration",
+  "ingredient": "#c:plates/iron",
+  "result": {
+    "id": "windymixin:screws",
+    "count": 4
+  },
+  "energy": 200
+}

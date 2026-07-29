@@ -1,0 +1,19 @@
+{
+  "type": "enderio:alloy_smelting",
+  "energy": 2000,
+  "experience": 0.2,
+  "inputs": [
+    {
+      "count": 2,
+      "ingredient": "minecraft:string"
+    },
+    {
+      "count": 1,
+      "ingredient": "windymixin:plastic"
+    }
+  ],
+  "output": {
+    "id": "windymixin:polyester_cloth",
+    "count": 2
+  }
+}

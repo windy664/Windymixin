@@ -1,0 +1,17 @@
+{
+  "type": "energizedpower:alloy_furnace",
+  "ingredients": [
+    {
+      "count": 4,
+      "ingredient": "mysticalagriculture:iron_essence"
+    },
+    {
+      "count": 4,
+      "ingredient": "minecraft:coal"
+    }
+  ],
+  "result": {
+    "id": "c:ingots/steel"
+  },
+  "ticks": 600
+}

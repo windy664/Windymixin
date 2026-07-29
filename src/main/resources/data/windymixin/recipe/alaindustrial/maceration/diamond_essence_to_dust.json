@@ -1,0 +1,9 @@
+{
+  "type": "alaindustrial:maceration",
+  "ingredient": "mysticalagriculture:diamond_essence",
+  "result": {
+    "id": "alaindustrial:diamond_dust",
+    "count": 1
+  },
+  "energy": 800
+}
