@@ -22,7 +22,7 @@
     "Minecraft.DisableVersionCheckMixin",
     "Minecraft.MinecraftShutdownMixin",
     "TomsStorage.NetworkHandlerClientMixin",
-    "neoforge.EventBusMixin"
+    "neoforge.FMLLoaderMixin"
   ],
   "injectors": {
     "defaultRequire": 1
