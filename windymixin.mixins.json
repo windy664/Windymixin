@@ -21,8 +21,7 @@
     "Minecraft.DisableRealmsMixin",
     "Minecraft.DisableVersionCheckMixin",
     "Minecraft.MinecraftShutdownMixin",
-    "TomsStorage.NetworkHandlerClientMixin",
-    "neoforge.FMLLoaderMixin"
+    "TomsStorage.NetworkHandlerClientMixin"
   ],
   "injectors": {
     "defaultRequire": 1
