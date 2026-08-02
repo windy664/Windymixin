@@ -1,0 +1,9 @@
+{
+  "name": "book.windymixin.guide.name",
+  "description": "book.windymixin.guide.description",
+  "tooltip": "book.windymixin.guide.tooltip",
+  "display_mode": "node",
+  "page_display_mode": "double_page",
+  "generate_book_item": true,
+  "creative_tab": "minecraft:tools_and_utilities"
+}

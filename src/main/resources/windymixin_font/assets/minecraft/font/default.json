@@ -1,1 +1,34 @@
-{"providers":[{"type":"bitmap","file":"minecraft:font/logo.png","ascent":8,"height":8,"chars":["\uD840\uDC00"]}]}
+{
+  "providers": [
+    {
+      "type": "caxton",
+      "regular": {
+        "file": "caxton:notosanssc_regular",
+        "shadow_offset": 0.5
+      },
+      "bold": {
+        "file": "caxton:notosanssc_bold",
+        "shadow_offset": 0.5
+      }
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/logo.png",
+      "ascent": 8,
+      "height": 8,
+      "chars": ["𠀀"]
+    },
+    {
+      "id": "minecraft:include/space",
+      "type": "reference"
+    },
+    {
+      "id": "minecraft:include/default",
+      "type": "reference"
+    },
+    {
+      "id": "minecraft:include/unifont",
+      "type": "reference"
+    }
+  ]
+}

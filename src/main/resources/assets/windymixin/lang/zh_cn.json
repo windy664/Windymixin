@@ -24,5 +24,37 @@
   "item.windymixin.research_notes": "研究笔记",
   "item.windymixin.retort": "炼金蒸馏器",
   "item.windymixin.vial_rack": "玻璃瓶架",
-  "item.windymixin.witch_cauldron": "女巫炼药锅"
+  "item.windymixin.witch_cauldron": "女巫炼药锅",
+
+  "book.windymixin.guide.name": "风吟魔改指南",
+  "book.windymixin.guide.description": "风吟魔改模组的使用指南。",
+  "book.windymixin.guide.tooltip": "点击打开指南书",
+
+  "book.windymixin.guide.basic.name": "基础入门",
+  "book.windymixin.guide.basic.description": "了解模组的基础内容。",
+
+  "book.windymixin.guide.basic.welcome.name": "欢迎",
+  "book.windymixin.guide.basic.welcome.description": "欢迎来到风吟魔改！",
+  "book.windymixin.guide.basic.welcome.page1.title": "欢迎！",
+  "book.windymixin.guide.basic.welcome.page1.text": "欢迎使用**风吟魔改**！\\\n\\\n这本指南书将帮助你了解模组的各种功能和物品。",
+  "book.windymixin.guide.basic.welcome.page2.title": "模组简介",
+  "book.windymixin.guide.basic.welcome.page2.text": "风吟魔改包含以下内容：\\\n\\\n- 枪械零件系统\\\n- 神秘时代炼金系统\\\n- 各种实用物品和方块",
+
+  "book.windymixin.guide.basic.materials.name": "基础材料",
+  "book.windymixin.guide.basic.materials.description": "了解模组的基础材料。",
+  "book.windymixin.guide.basic.materials.page1.title": "材料介绍",
+  "book.windymixin.guide.basic.materials.page1.text": "风吟魔改添加了许多基础材料，用于制作各种物品。\\\n\\\n以下是几种常用的材料：",
+  "book.windymixin.guide.basic.materials.spotlight.title": "钢管",
+  "book.windymixin.guide.basic.materials.spotlight.text": "钢管是制作枪械零件的基础材料。",
+  "book.windymixin.guide.basic.materials.spotlight2.title": "螺丝",
+  "book.windymixin.guide.basic.materials.spotlight2.text": "螺丝用于组装各种机械部件。",
+
+  "book.windymixin.guide.basic.thaumon.name": "神秘时代",
+  "book.windymixin.guide.basic.thaumon.description": "了解神秘时代炼金系统。",
+  "book.windymixin.guide.basic.thaumon.page1.title": "神秘时代",
+  "book.windymixin.guide.basic.thaumon.page1.text": "神秘时代是风吟魔改中的炼金系统。\\\n\\\n你需要使用各种工具来进行炼金实验。",
+  "book.windymixin.guide.basic.thaumon.spotlight.title": "研究笔记",
+  "book.windymixin.guide.basic.thaumon.spotlight.text": "研究笔记记录了各种炼金配方和知识。",
+  "book.windymixin.guide.basic.thaumon.spotlight2.title": "炼金蒸馏器",
+  "book.windymixin.guide.basic.thaumon.spotlight2.text": "炼金蒸馏器用于提炼各种炼金材料。"
 }

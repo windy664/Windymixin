@@ -1,0 +1,8 @@
+{
+  "name": "book.windymixin.guide.basic.name",
+  "description": "book.windymixin.guide.basic.description",
+  "icon": {
+    "item": "windymixin:grimoire"
+  },
+  "sort_number": 0
+}

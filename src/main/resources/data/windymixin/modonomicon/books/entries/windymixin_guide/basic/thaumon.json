@@ -1,0 +1,39 @@
+{
+  "name": "book.windymixin.guide.basic.thaumon.name",
+  "description": "book.windymixin.guide.basic.thaumon.description",
+  "icon": {
+    "item": "windymixin:research_notes"
+  },
+  "category": "windymixin:windymixin_guide/basic",
+  "x": 4,
+  "y": 0,
+  "entry_background": "hexagon_purple",
+  "parents": [
+    {
+      "id": "windymixin:windymixin_guide/basic/welcome"
+    }
+  ],
+  "pages": [
+    {
+      "type": "modonomicon:text",
+      "title": "book.windymixin.guide.basic.thaumon.page1.title",
+      "text": "book.windymixin.guide.basic.thaumon.page1.text"
+    },
+    {
+      "type": "modonomicon:spotlight",
+      "item": {
+        "id": "windymixin:research_notes"
+      },
+      "title": "book.windymixin.guide.basic.thaumon.spotlight.title",
+      "text": "book.windymixin.guide.basic.thaumon.spotlight.text"
+    },
+    {
+      "type": "modonomicon:spotlight",
+      "item": {
+        "id": "windymixin:retort"
+      },
+      "title": "book.windymixin.guide.basic.thaumon.spotlight2.title",
+      "text": "book.windymixin.guide.basic.thaumon.spotlight2.text"
+    }
+  ]
+}

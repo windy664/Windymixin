@@ -1,0 +1,23 @@
+{
+  "name": "book.windymixin.guide.basic.welcome.name",
+  "description": "book.windymixin.guide.basic.welcome.description",
+  "icon": {
+    "item": "windymixin:grimoire"
+  },
+  "category": "windymixin:windymixin_guide/basic",
+  "x": 0,
+  "y": 0,
+  "entry_background": "square_gray",
+  "pages": [
+    {
+      "type": "modonomicon:text",
+      "title": "book.windymixin.guide.basic.welcome.page1.title",
+      "text": "book.windymixin.guide.basic.welcome.page1.text"
+    },
+    {
+      "type": "modonomicon:text",
+      "title": "book.windymixin.guide.basic.welcome.page2.title",
+      "text": "book.windymixin.guide.basic.welcome.page2.text"
+    }
+  ]
+}

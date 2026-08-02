@@ -1,0 +1,39 @@
+{
+  "name": "book.windymixin.guide.basic.materials.name",
+  "description": "book.windymixin.guide.basic.materials.description",
+  "icon": {
+    "item": "windymixin:steel_pipe"
+  },
+  "category": "windymixin:windymixin_guide/basic",
+  "x": 2,
+  "y": 0,
+  "entry_background": "square_gray",
+  "parents": [
+    {
+      "id": "windymixin:windymixin_guide/basic/welcome"
+    }
+  ],
+  "pages": [
+    {
+      "type": "modonomicon:text",
+      "title": "book.windymixin.guide.basic.materials.page1.title",
+      "text": "book.windymixin.guide.basic.materials.page1.text"
+    },
+    {
+      "type": "modonomicon:spotlight",
+      "item": {
+        "id": "windymixin:steel_pipe"
+      },
+      "title": "book.windymixin.guide.basic.materials.spotlight.title",
+      "text": "book.windymixin.guide.basic.materials.spotlight.text"
+    },
+    {
+      "type": "modonomicon:spotlight",
+      "item": {
+        "id": "windymixin:screws"
+      },
+      "title": "book.windymixin.guide.basic.materials.spotlight2.title",
+      "text": "book.windymixin.guide.basic.materials.spotlight2.text"
+    }
+  ]
+}
