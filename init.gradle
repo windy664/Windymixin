@@ -1,0 +1,55 @@
+// Gradle Init Script: 将 maven.neoforged.net 替换为国内镜像
+// 用法: 放在项目根目录，构建时加 --init-script init.gradle
+// 或复制到 ~/.gradle/init.d/ 目录下全局生效
+
+def mirrorUrl = 'https://bmclapi2.bangbang93.com/maven'
+
+allprojects {
+    // 为所有项目添加镜像源（排在最前面，优先使用）
+    buildscript {
+        repositories {
+            maven {
+                url = mirrorUrl
+                content {
+                    includeGroupByRegex 'net\\.neoforged.*'
+                    includeGroup 'net.neoforged.jst'
+                }
+            }
+        }
+    }
+    repositories {
+        maven {
+            url = mirrorUrl
+            content {
+                includeGroupByRegex 'net\\.neoforged.*'
+                includeGroup 'net.neoforged.jst'
+            }
+        }
+    }
+}
+
+// 全局拦截：将所有 maven.neoforged.net 仓库替换为镜像
+settingsEvaluated { settings ->
+    settings.pluginManagement.repositories {
+        maven {
+            url = mirrorUrl
+            content {
+                includeGroupByRegex 'net\\.neoforged.*'
+            }
+        }
+    }
+}
+
+projectsLoaded {
+    allprojects { project ->
+        project.repositories.configureEach {
+            if (it instanceof MavenArtifactRepository) {
+                def url = it.url.toString()
+                if (url.contains('maven.neoforged.net')) {
+                    println "  [Mirror] ${url} -> ${mirrorUrl}"
+                    it.url = uri(mirrorUrl)
+                }
+            }
+        }
+    }
+}

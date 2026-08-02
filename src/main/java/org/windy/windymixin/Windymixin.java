@@ -21,7 +21,8 @@ import net.minecraft.server.packs.repository.PackSource;
 import org.slf4j.Logger;
 import org.windy.windymixin.compat.TomsStorageTerminal.TomsStorageTerminalSyncFix;
 import org.windy.windymixin.mixin.TomsStorage.NetworkHandlerClientMixin;
-import java.nio.file.Path;
+import java.nio.file.*;
+import java.util.Map;
 import java.util.Optional;
 import java.io.File;
 import java.io.PrintWriter;
@@ -50,8 +51,19 @@ public class Windymixin {
         if (modBus != null) {
             modBus.addListener(AddPackFindersEvent.class, event -> {
                 if (event.getPackType() == PackType.CLIENT_RESOURCES) {
-                    Path fontPath = ModList.get().getModFileById(MODID).getFile().getFilePath().resolve("windymixin_font");
-                    LOGGER.info("[Windymixin] 字体资源包路径: {}", fontPath);
+                    Path modFilePath = ModList.get().getModFileById(MODID).getFile().getFilePath();
+                    Path resolvedFontPath;
+                    try {
+                        // 如果 mod 在 jar 内，需要先打开 jar FileSystem 才能用 PathPackResources 读取内部路径
+                        FileSystem fs = FileSystems.newFileSystem(modFilePath, Map.of());
+                        resolvedFontPath = fs.getPath("windymixin_font");
+                        LOGGER.info("[Windymixin] 字体资源包路径 (jar 内部): {}", resolvedFontPath);
+                    } catch (Exception e) {
+                        // 如果已经在解压目录（开发环境），直接用 resolve
+                        resolvedFontPath = modFilePath.resolve("windymixin_font");
+                        LOGGER.info("[Windymixin] 字体资源包路径 (目录): {}", resolvedFontPath);
+                    }
+                    final Path fontPath = resolvedFontPath;
                     event.addRepositorySource(consumer -> {
                         PackLocationInfo loc = new PackLocationInfo(
                                 MODID + "_font",

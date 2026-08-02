@@ -1,0 +1,30 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "org.windy.windymixin.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "JEI.PacketGiveItemStackMixin",
+    "JEI.PacketRequestCheatPermissionMixin",
+    "JEG.BallisticMixin",
+    "Minecraft.AbstractContainerMenuMixin",
+    "Minecraft.BlockEntityAccessor",
+    "Minecraft.EnderDragonMixin",
+    "Minecraft.StringUtilMixin",
+    "TomsStorage.TerminalSyncManagerMixin",
+    "IntegratedDynamics.FixChunkUnloadCrashMixin",
+    "Mysticalagriculture.EssenceVesselRendererMixin"
+  ],
+  "client": [
+    "Iris.TextDisplayRendererMixin",
+    "Minecraft.ChatFilterMixin",
+    "Minecraft.DisableRealmsMixin",
+    "Minecraft.DisableVersionCheckMixin",
+    "Minecraft.MinecraftShutdownMixin",
+    "TomsStorage.NetworkHandlerClientMixin",
+    "neoforge.EventBusMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
