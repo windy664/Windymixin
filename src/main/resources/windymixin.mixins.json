@@ -13,7 +13,21 @@
     "Minecraft.StringUtilMixin",
     "TomsStorage.TerminalSyncManagerMixin",
     "IntegratedDynamics.FixChunkUnloadCrashMixin",
-    "Mysticalagriculture.EssenceVesselRendererMixin"
+    "Mysticalagriculture.EssenceVesselRendererMixin",
+    "TwilightForest.BossHealthMixin$NagaHealth",
+    "TwilightForest.BossHealthMixin$LichHealth",
+    "TwilightForest.BossHealthMixin$HydraHealth",
+    "TwilightForest.BossHealthMixin$AlphaYetiHealth",
+    "TwilightForest.BossHealthMixin$KnightPhantomHealth",
+    "TwilightForest.BossHealthMixin$MinoshroomHealth",
+    "TwilightForest.BossHealthMixin$SnowQueenHealth",
+    "TwilightForest.BossHealthMixin$UrGhastHealth",
+    "Mekanism.FrequencyTypeNullGuardMixin",
+    "Mekanism.BlockMekanismSecurityMixin",
+    "Mekanism.ItemStackIngredientFixMixin",
+    "Mekanism.FrequencyPlacementGuardMixin",
+    "Mekanism.BlockTransmitterMixin",
+    "Mekanism.UniversalCableEnergyClampMixin"
   ],
   "client": [
     "Iris.TextDisplayRendererMixin",
@@ -21,7 +35,10 @@
     "Minecraft.DisableRealmsMixin",
     "neoforge.DisableVersionCheckMixin",
     "Minecraft.MinecraftShutdownMixin",
-    "TomsStorage.NetworkHandlerClientMixin"
+    "TomsStorage.NetworkHandlerClientMixin",
+    "Mekanism.FixObjGeometryMixin",
+    "Mekanism.JetpackHoverSyncMixin",
+    "EnderIO.ConduitBakerMixin"
   ],
   "injectors": {
     "defaultRequire": 1

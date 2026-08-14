@@ -13,7 +13,8 @@
     "Minecraft.StringUtilMixin",
     "TomsStorage.TerminalSyncManagerMixin",
     "IntegratedDynamics.FixChunkUnloadCrashMixin",
-    "Mysticalagriculture.EssenceVesselRendererMixin"
+    "Mysticalagriculture.EssenceVesselRendererMixin",
+    "Mekanism.FixObjGeometryMixin"
   ],
   "client": [
     "Iris.TextDisplayRendererMixin",
