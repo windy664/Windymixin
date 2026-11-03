@@ -1,31 +1,37 @@
-# 风吟的通用BUG修复
+<div align="center">
 
----
-## 修复内容
+<img src="assets/banner.svg" alt="Windymixin" width="100%">
 
-### 无尽贪婪
-- 修复了中子素压缩机卡服问题
-- 修复了无尽箱子叠加炸服问题
+# Windymixin
 
-### 工业升级
-- 修复了与FE能源转化时NPE问题
+**风吟的通用 BUG 修复** —— NeoForge Mixin 注入合集：修各种 Mod 在高版本混合环境下的崩溃与行为异常，附少量配方调整。
 
-- 修复了在创造栏下查找配方时addtip失败的问题
+![Platform](https://img.shields.io/badge/Platform-NeoForge-62bda8?style=flat-square&logo=minecraft&logoColor=white)
+![Minecraft](https://img.shields.io/badge/MC-26.2-8a9a5b?style=flat-square)
+![Java](https://img.shields.io/badge/Java-21%2B-f89820?style=flat-square&logo=openjdk&logoColor=white)
 
-### FTB任务
-- 修复了因服务器断电导致任务文件损坏的问题
+[修复列表](#-修复列表) · [构建](#-构建)
 
-### Jade
-- 修复了等价交换信息显示出错问题
+</div>
 
-### Minecraft原版修复
-- 修复了物品堆叠超过99而崩溃的问题
+## ✨ 修复列表
 
-- 延长了进服加载阶段时间而防止模组多的时候Time out
+| 目标 Mod | Mixin | 修复内容 |
+|----------|-------|----------|
+| EnderIO | `ConduitBakerMixin` | 导管烘焙行为修正 |
+| Integrated Dynamics | `FixChunkUnloadCrashMixin` | 区块卸载崩溃修复 |
+| Iris | `TextDisplayRendererMixin` | 文本显示实体渲染异常 |
+| JEG | `BallisticMixin` | 弹道行为修正 |
+| JEI | `PacketGiveItemStackMixin` 等 | 物品刷取/作弊权限包校验 |
+| Mekanism | `BlockMekanismSecurityMixin`、`BlockTransmitterMixin`、`FixObjGeometryMixin` | 安全方块、传输器与模型几何修复 |
+| Tom's Storage | `TomsStorageTerminalSyncFix` | 终端同步修复 |
 
-### Neoforge修复
-- 解决了无中生有注册包问题
+**配方与物品调整**：`JegRecipeFilter`（JEG 配方过滤）、`MaRecipeNerf` / `MaStealthNerf`（潜行削弱）、`GunPartItems` / `ThaumonItems`（物品注册调整），支持 YAML 配置（`Config` + `ConfigYaml`/`LangYaml`）。
 
-### 钛修复
-- 禁止访问互联网而防止启动过程无法启动服务器
+## 🔨 构建
 
+```bash
+./gradlew build
+```
+
+产物为 NeoForge Mod jar（MC 26.2），放进 `mods/` 即可，无需额外配置。
